@@ -4,7 +4,7 @@
 <p align="center"> Techs that I've used at least once </p>
 <p align="center">
 <img src = "https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/>
-<img src = "https://img.shields.io/badge/C++-00599C?style=flat-square&logo=C%2B%2B&logoColor=white"/>
+<img src = "https://img.shields.io/badge/C++-00FF00?style=flat-square&logo=C%2B%2B&logoColor=white"/>
 <img src = "https://img.shields.io/badge/Java-FF0000?style=flat-square&logo=Java&logoColor=white"/>
 <img src = "https://img.shields.io/badge/C-FFFF00?style=flat-square&logo=C&logoColor=black"/>
 </p>

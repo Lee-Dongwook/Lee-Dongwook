@@ -23,7 +23,7 @@
 <p align="center">
 <h5 align = "center">Team Hongsujeo Project (Making Website about recommand restaurants using React App) (2022.12~   )</h5>
 <h5 align = "center">Team Project (Making Website about Calender and To do list using React App) (2023.1~  )</h5>
-<h5 align = "center">Grduate Team Project (Making Website about recommand curriculum about University using React App) (2023.3~  )</h5>
+<h5 align = "center">Graduate Team Project (Making Website about recommand curriculum about University using React App) (2023.3~  )</h5>
 </p>
 <!--
 **Lee-Dongwook/Lee-Dongwook** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

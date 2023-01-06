@@ -8,6 +8,7 @@
 <img src = "https://img.shields.io/badge/Java-FF0000?style=flat-square&logo=Java&logoColor=white"/>
 <img src = "https://img.shields.io/badge/C-FFFF00?style=flat-square&logo=C&logoColor=black"/>
 <img src = "https://img.shields.io/badge/Javascript-00FFFF?style=flat-square&logo=Javascript&logoColor=black"/>
+<img src = "https://img.shields.io/badge/HTML-FF00FF?style=flat-square&logo=HTML&logoColor=black"/>
 </p>
 <p align="center"> My SNS link </p>
 <a href="www.naver.com"><img src ="https://img.shields.io/badge/Instagram-3F729B?style=flat-square&logo=Instagram&logoColor=white&link="/></a>&nbsp

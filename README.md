@@ -4,6 +4,7 @@
 <p align="center"> Techs that I've used at least once </p>
 <p align="center">
 <img src = "https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/>
+<img src = "https://img.shields.io/badge/C++-00599C?style=flat-square&logo=C%2B%2B&logoColor=grey"/>
 </p>
 <!--
 **Lee-Dongwook/Lee-Dongwook** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

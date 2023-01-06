@@ -18,6 +18,10 @@
 <img src = "https://img.shields.io/badge/Postgresql-FF9999?style=flat-square&logo=Postgresql&logoColor=black"/>
 <img src = "https://img.shields.io/badge/Mysql-FFCC99?style=flat-square&logo=Mysql&logoColor=black"/>
 </p>
+<h3 align="center">Project</h3>
+<p align="center">
+<h5>Team Hongseo</h5>
+</p>
 <!--
 **Lee-Dongwook/Lee-Dongwook** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 

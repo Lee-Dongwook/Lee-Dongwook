@@ -10,6 +10,7 @@
 <img src = "https://img.shields.io/badge/Javascript-00FFFF?style=flat-square&logo=Javascript&logoColor=black"/>
 <img src = "https://img.shields.io/badge/HTML-FF00FF?style=flat-square&logo=HTML5&logoColor=black"/>
 <img src = "https://img.shields.io/badge/CSS-808080?style=flat-square&logo=CSS3&logoColor=white"/>
+<img src = "https://img.shields.io/badge/SpringBoot-66FF66?style=flat-square&logo=SpringBoot&logoColor=white"/>
 </p>
 <p align="center"> My SNS link </p>
 <a href="www.naver.com"><img src ="https://img.shields.io/badge/Instagram-3F729B?style=flat-square&logo=Instagram&logoColor=white&link="/></a>&nbsp

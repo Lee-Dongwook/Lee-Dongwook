@@ -13,7 +13,8 @@
 <img src = "https://img.shields.io/badge/SpringBoot-66FF66?style=flat-square&logo=SpringBoot&logoColor=white"/>
 </p>
 <p align="center">
-<img src = "https://img.shields.io/badge/NodeJS-009900?style=flat-square&logo=NodeJS&logoColor=white"/>
+<img src = "https://img.shields.io/badge/Node.JS-009900?style=flat-square&logo=NodeJS&logoColor=white"/>
+<img src = "https://img.shields.io/badge/React.JS-0066CC?style=flat-square&logo=ReactJS&logoColor=white"/>
 </p>
 <!--
 **Lee-Dongwook/Lee-Dongwook** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

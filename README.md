@@ -6,6 +6,7 @@
 <img src = "https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/>
 <img src = "https://img.shields.io/badge/C++-00599C?style=flat-square&logo=C%2B%2B&logoColor=white"/>
 <img src = "https://img.shields.io/badge/Java-FF0000?style=flat-square&logo=Java&logoColor=white"/>
+<img src = "https://img.shields.io/badge/C-FFFF00?style=flat-square&logo=C&logoColor=black"/>
 </p>
 <p align="center"> My SNS link </p>
 <a href="www.naver.com"><img src ="https://img.shields.io/badge/Instagram-3F729B?style=flat-square&logo=Instagram&logoColor=white&link="/></a>&nbsp

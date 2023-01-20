@@ -19,13 +19,18 @@
 <img src = "https://img.shields.io/badge/Postgresql-FF9999?style=flat-square&logo=Postgresql&logoColor=black"/>
 <img src = "https://img.shields.io/badge/Mysql-FFCC99?style=flat-square&logo=Mysql&logoColor=black"/>
 </p>
-<h3 align="center">Project</h3>
+<h3 align="center"> Group Projects</h3>
 <p align="center">
 <h5 align = "center">Team Hongsujeo Project (Making Website about recommand restaurants using React App) (2022.12~   )</h5>
 <h5 align = "center">Team Project (Making Website about Calender and To do list using React App) (2023.1~  )</h5>
+<h5 align = "center">Team Novelist(Making Website about Web Novel recommand with Korea National University using React App)(2023.2~ )</h5>
 <h5 align = "center">Graduate Team Project (Making Website about recommand curriculum about University using React App) (2023.3~  )</h5>
-<h5 align = "center">Team Novelist(Making Website about Web Novel recommand with Korea National University using React App) </h5>
 </p>
+
+<h3 align="center"> Solo Projects</h3>
+<p align="center">
+ <h5 align = "center"> Travel Project (Making Website about recommand Travel spot using React App) (2023.2~ ) </h5>
+ </p>
 <!--
 **Lee-Dongwook/Lee-Dongwook** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 

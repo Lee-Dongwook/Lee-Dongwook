@@ -31,6 +31,13 @@
 <p align="center">
  <h5 align = "center"> Travel Project (Making Website about recommand Travel spot using React App) (2023.2~ ) </h5>
  </p>
+ 
+ <h3 align="center"> Algorithm Studying</h3>
+ <p align="center">
+ <h5 align="center"> Data-Structure(Stack, Queue, priority_Queue, Tree(including BST, Segment Tree) , Graph , Linked-list) </h5>
+ <h5 align="center"> Sorting(Bubble, Selection, Insertion, Quick, Merge, Radix, Topological) </h5>
+ <h5 align="center"> Search(DFS, BFS, Binary-Search) </h5>
+ <h5 align="center"> Solving Problem (Dynamic Programming, Greedy, Dijikstra, Union-find, Sliding-window, Two-pointer, Range-sum, Integer Theory, Geometry, Bellman-Ford, Flyod-Warshall, Least Spanning Tree, Combination) </h5>
 <!--
 **Lee-Dongwook/Lee-Dongwook** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 

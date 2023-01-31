@@ -18,6 +18,7 @@
 <img src = "https://img.shields.io/badge/React.JS-0066CC?style=flat-square&logo=ReactJS&logoColor=white"/>
 <img src = "https://img.shields.io/badge/Postgresql-FF9999?style=flat-square&logo=Postgresql&logoColor=black"/>
 <img src = "https://img.shields.io/badge/Mysql-FFCC99?style=flat-square&logo=Mysql&logoColor=black"/>
+<img src = "https://img.shields.io/badge/AndroidStudio-66FF66?style=flat-square&logo=AndroidStudio&logoColor=white"/>
 </p>
 <h3 align="center"> Group Projects</h3>
 <p align="center">

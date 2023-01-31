@@ -10,6 +10,7 @@
 <img src = "https://img.shields.io/badge/C-FFFF00?style=flat-square&logo=C&logoColor=black"/>
 <img src = "https://img.shields.io/badge/Javascript-00FFFF?style=flat-square&logo=Javascript&logoColor=black"/>
 <img src = "https://img.shields.io/badge/HTML-FF00FF?style=flat-square&logo=HTML5&logoColor=black"/>
+<img src = "https://img.shields.io/badge/Kotlin-FF0000?style=flat-square&logo=Kotlin&logoColor=white"/>
 </p>
 <p align="center">
 <img src = "https://img.shields.io/badge/CSS-808080?style=flat-square&logo=CSS3&logoColor=white"/>

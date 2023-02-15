@@ -34,7 +34,8 @@
 
 <h3 align="center"> Solo Projects</h3>
 <p align="center">
- <h5 align = "center"> TodolistApp Project (Making Android Application about Todolist using Android Studio and Java Language) (2023.2~ ) </h5>
+ <h5 align = "center"> TodolistApp Project (Making Android Application about Todolist using Android Studio and Java Language) (2023.2) </h5>
+ <h5 align = "center"> Mine Project (Making Mine Maze Game using React App for Practice) (2023.2) </h5>
  </p>
  
  <h3 align="center"> Algorithm Studying</h3>

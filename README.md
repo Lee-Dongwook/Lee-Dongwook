@@ -15,8 +15,8 @@
 <p align="center">
 <img src = "https://img.shields.io/badge/CSS-808080?style=flat-square&logo=CSS3&logoColor=white"/>
 <img src = "https://img.shields.io/badge/SpringBoot-66FF66?style=flat-square&logo=SpringBoot&logoColor=white"/>
-<img src = "https://img.shields.io/badge/Node.JS-009900?style=flat-square&logo=NodeJS&logoColor=white"/>
-<img src = "https://img.shields.io/badge/React.JS-0066CC?style=flat-square&logo=ReactJS&logoColor=white"/>
+<img src = "https://img.shields.io/badge/NodeJS-009900?style=flat-square&logo=NodeJS&logoColor=white"/>
+<img src = "https://img.shields.io/badge/ReactJS-0066CC?style=flat-square&logo=ReactJS&logoColor=white"/>
 <img src = "https://img.shields.io/badge/Postgresql-FF9999?style=flat-square&logo=Postgresql&logoColor=black"/>
 <img src = "https://img.shields.io/badge/Mysql-FFCC99?style=flat-square&logo=Mysql&logoColor=black"/>
 <img src = "https://img.shields.io/badge/AndroidStudio-66FF66?style=flat-square&logo=AndroidStudio&logoColor=white"/>

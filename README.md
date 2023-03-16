@@ -33,6 +33,7 @@
 <h5 align="center">Completion of the front-end technician course at the Commento Job Boot Camp (2023.1~2023.3)</h5>
 <h5 align="center">GDSC Hongik Community Member(2023.3~) </h5>
 <h5 align="center">Hongik University Learning Mentoring System Computer Engineering Mentor "이끄미"(2023.3~)</h5>
+<h5 align="center">Participating in the Hongik University SDP (Self Development Plan) Excellent Activity Contest</h5>
 <hr />
 </p>
 <h3 align="center"> Group Projects</h3>

@@ -32,7 +32,6 @@
 <h5 align="center">GDSC Hongik Community Member(2023.3~) </h5>
 <hr />
 </p>
-<br />
 <h3 align="center"> Group Projects</h3>
 <p align="center">
 <h5 align = "center">Team MasitHong Project (Making Website about recommand restaurants using React App) (2022.12~   )</h5>

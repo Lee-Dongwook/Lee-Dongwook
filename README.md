@@ -41,13 +41,13 @@
 <h5 align = "center">Graduate Team Project (Making Website about recommand curriculum about University using React App) (2023.3~  )</h5>
 
 </p>
-
+<hr />
 <h3 align="center"> Solo Projects</h3>
 <p align="center">
  <h5 align = "center"> TodolistApp Project (Making Android Application about Todolist using Android Studio and Java Language) (2023.2) </h5>
  <h5 align = "center"> Mine Project (Making Mine Maze Game using React App for Practice) (2023.2) </h5>
  </p>
- 
+ <hr />
  <h3 align="center"> Algorithm Studying</h3>
  <p align="center">
  <h5 align="center"> Data-Structure(Stack, Queue, priority_Queue, Tree(including BST, Segment Tree) , Graph , Linked-list) </h5>

@@ -29,7 +29,7 @@
 <p align="center">
 <h5 align="center">Hongik University Department of Computer Engineering 4th year student (2018.3~)</h5>
 <h5 align="center">Hongik University Department of Computer Engineering Academic Society P.C.R.C 32nd class (2018.3~2019.5) </h5>
-<h5 align="center">Korea University Startup Team Novelier Front-End Developer (2023.1~) </h5>
+<h5 align="center">Korea University Startup Team Novelia Front-End Developer (2023.1~) </h5>
 <h5 align="center">Completion of the front-end technician course at the Commento Job Boot Camp (2023.1~2023.3)</h5>
 <h5 align="center">GDSC Hongik Community Member(2023.3~) </h5>
 <h5 align="center">Hongik University Learning Mentoring System Computer Engineering Mentor "이끄미"(2023.3~)</h5>

@@ -23,11 +23,20 @@
 <img src = "https://img.shields.io/badge/AndroidStudio-66FF66?style=flat-square&logo=AndroidStudio&logoColor=white"/>
 <img src = "https://img.shields.io/badge/Django-000000?style=flat-square&logo=Django&logoColor=white"/>
 </p>
+
+<br />
+<h3 align="center"> -- Profile -- </h3>
+<p align="center>
+<h5 align="center">홍익대학교 컴퓨터공학과 4학년 재학중</h5>
+<h5 align="center">고려대학교 스타트업 팀 노벨리에 프론트엔드 개발자 (2023.1~) </h5>
+<h5 align="center">GDSC Hongik Community Member(2023.3~) </h5>
+</p>
+<br />
 <h3 align="center"> Group Projects</h3>
 <p align="center">
 <h5 align = "center">Team MasitHong Project (Making Website about recommand restaurants using React App) (2022.12~   )</h5>
 <h5 align = "center">Team LCK Project (Making Website about Calender and To do list using React App) (2023.1~  )</h5>
-<h5 align = "center">Universities Union Team Novelist(Making Website about Web Novel recommand and provide feedback service to readers with Korea National University using React App)(2023.2~ )</h5>
+<h5 align = "center">Universities Union Startup Team Novelia(Making Website about Web Novel recommand and provide feedback service to readers with Korea National University using React App)(2023.2~ )</h5>
  <h5 align = "center"> Travel Project (Making Website about recommand Travel spot using React App) (2023.2~ ) </h5>
 <h5 align = "center">Graduate Team Project (Making Website about recommand curriculum about University using React App) (2023.3~  )</h5>
 

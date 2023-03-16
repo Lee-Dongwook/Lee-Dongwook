@@ -30,7 +30,7 @@
 <h5 align="center">Hongik University Department of Computer Engineering 4th year student(2018.3~)</h5>
 <h5 align="center">Korea University Startup Team Novelier Front-End Developer (2023.1~) </h5>
 <h5 align="center">GDSC Hongik Community Member(2023.3~) </h5>
-<
+<hr />
 </p>
 <br />
 <h3 align="center"> Group Projects</h3>

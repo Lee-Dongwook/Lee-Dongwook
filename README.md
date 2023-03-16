@@ -27,8 +27,8 @@
 <br />
 <h3 align="center"> -- Profile -- </h3>
 <p align="center">
-<h5 align="center">홍익대학교 컴퓨터공학과 4학년 재학중(2018.3~)</h5>
-<h5 align="center">고려대학교 스타트업 팀 노벨리에 프론트엔드 개발자 (2023.1~) </h5>
+<h5 align="center">Hongik University Department of Computer Engineering 4th year student(2018.3~)</h5>
+<h5 align="center">Korea University Startup Team Novelier Front-End Developer (2023.1~) </h5>
 <h5 align="center">GDSC Hongik Community Member(2023.3~) </h5>
 </p>
 <br />

@@ -34,11 +34,12 @@
 </p>
 <h3 align="center"> Group Projects</h3>
 <p align="center">
-<h5 align = "center">Team MasitHong Project (Making Website about recommand restaurants using React App) (2022.12~   )</h5>
-<h5 align = "center">Team LCK Project (Making Website about Calender and To do list using React App) (2023.1~  )</h5>
-<h5 align = "center">Universities Union Startup Team Novelia(Making Website about Web Novel recommand and provide feedback service to readers with Korea National University using React App)(2023.2~ )</h5>
- <h5 align = "center"> Travel Project (Making Website about recommand Travel spot using React App) (2023.2~ ) </h5>
-<h5 align = "center">Graduate Team Project (Making Website about planning travel itinerary, sharing and recruiting people using React App and Spring Boot) (2023.3~  )</h5>
+<h5 align = "center">Team MasitHong Project (Making Website about recommand restaurants using ReactJS and Nodejs) (2022.12~   )</h5>
+<h5 align = "center">Team LCK Project (Making Website about Calender and To do list using ReactJS and Nodejs) (2023.1~  )</h5>
+<h5 align = "center">Universities Union Startup Team Novelia(Making Website about Web Novel recommand and provide feedback service to readers with Korea National University using ReactJS and NestJS)(2023.2~ )</h5>
+ <h5 align = "center"> Travel Project (Making Website about 
+Introducing study cafes and libraries that are good for studying using ReactJS and Django) (2023.2~ ) </h5>
+<h5 align = "center">Graduate Team Project (Making Website about planning travel itinerary, sharing and recruiting people using ReactJS and Spring Boot) (2023.3~  )</h5>
 
 </p>
 <hr />

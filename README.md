@@ -52,6 +52,7 @@ Introducing study cafes and libraries that are good for studying using ReactJS a
 <p align="center">
  <h5 align = "center"> TodolistApp Project (Making Android Application about Todolist using Android Studio and Java Language) (2023.2) </h5>
  <h5 align = "center"> Mine Project (Making Mine Maze Game using React App for Practice) (2023.2) </h5>
+ <h5 align = "center"> AI (Making Sample AI Models for studying) (Python) (2023.3~) </h5>
  </p>
  <hr />
  <h3 align="center"> Algorithm Studying</h3>

@@ -27,14 +27,14 @@
 <br />
 <h3 align="center"> -- Profile -- </h3>
 <p align="center">
-<h5 align="center">Hongik University Department of Computer Engineering 4th year student (2018.3~)</h5>
-<h5 align="center">Hongik University Department of Computer Engineering Academic Society P.C.R.C 32nd class</h5> 
-<h5 align="center"> (Conducted a seminar on the characteristics of C language subjects) (2018.3~2019.5) </h5>
-<h5 align="center">Korea University Startup Team Novelia Front-End Developer (2023.1~) </h5>
-<h5 align="center">Completion of the front-end technician course at the Commento Job Boot Camp (2023.1~2023.3)</h5>
-<h5 align="center">GDSC Hongik Community Member(2023.3~) </h5>
-<h5 align="center">Hongik University Learning Mentoring System Computer Engineering Mentor "이끄미"(2023.3~)</h5>
-<h5 align="center">Participating in the Hongik University SDP (Self Development Plan) Excellent Activity Contest</h5>
+<h4 align="center">Hongik University Department of Computer Engineering senior student (2018.3~)</h4>
+<h4 align="center">Hongik University Department of Computer Engineering Academic Society P.C.R.C 32nd class</h4> 
+<h4 align="center"> (Conducted a seminar on the characteristics of C language subjects) (2018.3~2019.5) </h4>
+<h4 align="center">Korea University Startup Team Novelia Front-End Developer (2023.1~) </h4>
+<h4 align="center">Completion of the front-end technician course at the Commento Job Boot Camp (2023.1~2023.3)</h4>
+<h4 align="center">GDSC Hongik Community Member(2023.3~) </h4>
+<h4 align="center">Hongik University Learning Mentoring System Computer Engineering Mentor "이끄미"(2023.3~)</h4>
+<h4 align="center">Participating in the Hongik University SDP (Self Development Plan) Excellent Activity Contest</h4>
 <hr />
 </p>
 <h3 align="center"> Group Projects</h3>

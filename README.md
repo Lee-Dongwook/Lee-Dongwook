@@ -15,8 +15,8 @@
 </p>
 <p align="center">
 <img src = "https://img.shields.io/badge/CSS-808080?style=flat-square&logo=CSS3&logoColor=white"/>
-<img src = "https://img.shields.io/badge/SpringBoot-66FF66?style=flat-square&logo=SpringBoot&logoColor=white"/>
 <img src = "https://img.shields.io/badge/Node.JS-009900?style=flat-square&logo=Node.JS&logoColor=white"/>
+<img src = "https://img.shields.io/badge/SpringBoot-66FF66?style=flat-square&logo=SpringBoot&logoColor=white"/>
 <img src = "https://img.shields.io/badge/React-0066CC?style=flat-square&logo=React&logoColor=white"/>
 <img src = "https://img.shields.io/badge/Postgresql-FF9999?style=flat-square&logo=Postgresql&logoColor=black"/>
 <img src = "https://img.shields.io/badge/Mysql-FFCC99?style=flat-square&logo=Mysql&logoColor=black"/>

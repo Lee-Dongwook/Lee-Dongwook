@@ -53,10 +53,9 @@
  
  <h3>알고리즘</h3>
  <p>
- <h5> Data-Structure(Stack, Queue, priority_Queue, Tree(including BST, Segment Tree) , Graph , Linked-list) </h5>
- <h5> Sorting(Bubble, Selection, Insertion, Quick, Merge, Radix, Topological) </h5>
- <h5> Search(DFS, BFS, Binary-Search) </h5>
- <h5> Solving Problem (Dynamic Programming, Greedy, Dijikstra, Union-find, Sliding-window, Two-pointer, Range-sum, Integer Theory, Geometry, Bellman-Ford, Flyod-Warshall, Least Spanning Tree, Combination) </h5>
+ <h5> 자료구조(스택, 큐, 우선순위 큐, 데큐, 트리, 그래프, 링크드리스트) </h5>
+ <h5> 정렬(버블, 선택, 삽입, 퀵, 합병, 기수, 토폴로지)</h5>
+ <h5> 핵심 알고리즘 (DP, 그리디, 다익스트라, 분할정복, 유니온-파인드, 슬라이딩윈도우, 투포인터, Range-sum, Integer Theory, Geometry, Bellman-Ford, Flyod-Warshall, Least Spanning Tree, Combination) </h5>
 <!--
 **Lee-Dongwook/Lee-Dongwook** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 

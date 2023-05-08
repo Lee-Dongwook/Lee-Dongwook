@@ -26,15 +26,13 @@
 
 <br />
 <h3 align="center"> -- Profile -- </h3>
-<p align="center">
-<h4 align="center">Hongik University Department of Computer Engineering senior student (2018.3~)</h4>
-<h4 align="center">Hongik University Department of Computer Engineering Academic Society P.C.R.C 32nd class</h4> 
-<h4 align="center"> (Conducted a seminar on the characteristics of C language subjects) (2018.3~2019.5) </h4>
-<h4 align="center" textColor="red">Korea University Startup Team Novelia Front-End Developer (2023.1~) </h4>
-<h4 align="center">Completion of the front-end technician course at the Commento Job Boot Camp (2023.1~2023.3)</h4>
-<h4 align="center">GDSC Hongik Community Member(2023.3~) </h4>
-<h4 align="center">Hongik University Learning Mentoring System Computer Engineering Mentor "이끄미"(2023.3~)</h4>
-<h4 align="center">Participating in the Hongik University SDP (Self Development Plan) Excellent Activity Contest</h4>
+<p>
+<h4>홍익대학교 컴퓨터공학과 4학년 재학중</h4>
+<h4>홍익대학교 컴퓨터공학과 학술학회 P.C.R.C 32기(2019년 7월 C언어와 C++의 특징 및 활용 방안에 대한 세미나 진행경험)</h4> 
+<h4>고려대학교 스타트업 팀 Novelia (사업자명 : Novelia) 프론트엔드 개발자</h4>
+<h4>코멘토 직무부트캠프 프론트엔드 현직자 기술 과정 수료</h4>
+<h4>홍익대학교 GDSC 커뮤니티 멤버</h4>
+<h4>홍익대학교 학습튜터링2 "홍익투게더" 컴퓨터공학과 멘토 "이끄미" 활동 중</h4>
 <hr />
 </p>
 <h3 align="center"> Group Projects</h3>

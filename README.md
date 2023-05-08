@@ -35,14 +35,13 @@
 <h4>홍익대학교 학습튜터링2 "홍익투게더" 컴퓨터공학과 멘토 "이끄미" 활동 중</h4>
 <hr />
 </p>
-<h3 align="center"> Group Projects</h3>
-<p align="center">
-<h5 align = "center">Team MasitHong Project (Making Website about recommand restaurants using ReactJS and Nodejs) (2022.12~   )</h5>
-<h5 align = "center">Team LCK Project (Making Website about Calender and To do list using ReactJS and Nodejs) (2023.1~  )</h5>
-<h5 align = "center">Universities Union Startup Team Novelia(Making Website about Web Novel recommand and provide feedback service to readers with Korea National University using ReactJS and NestJS)(2023.2~ )</h5>
- <h5 align = "center"> Travel Project (Making Website about 
-Introducing study cafes and libraries that are good for studying using ReactJS and Django) (2023.2~ ) </h5>
-<h5 align = "center">Graduate Team Project (Making Website about planning travel itinerary, sharing and recruiting people using ReactJS and Spring Boot) (2023.3~  )</h5>
+<h3>협업 프로젝트</h3>
+<p>
+<h5>"맛있홍"(홍익대학교 주변 맛집을 검색하여 추천해주고 사용자들끼리 해당 맛집에 대한 평점 및 댓글을 남길 수 있는 음식점 종합 추천 서비스)</h5>
+<h5>고려대학교 스타트업 팀 Novelia 초기 서비스 MVP Project (신생 웹 소설 작가들을 위하여 실제 독자들의 피드백을 제공해주는 작가-독자 연결형 서비스)</h5>
+<h6>현재 서비스 운영 중</h6> <a href="www.novelier.co.kr>www.novelier.co.kr</a>
+<h5>"스터디" (홍익대학교 주변 스터디카페 및 도서관을 찾아주고, 사용자들의 후기를 들을 수 있는 학습 장소 탐색 서비스) </h5>
+<h5>TripPlannerz(졸업프로젝트이며, 여행을 좋아하는 사람들을 위해서 여행 장소 등을 추천해주고, 사용자가 여행 일정을 생성하여 함께할 동행자를 찾고, 방문할 여행 장소들에 대해서 최단 경로를 제공해주는 여행 종합 서비스)</h5>
 
 </p>
 <hr />

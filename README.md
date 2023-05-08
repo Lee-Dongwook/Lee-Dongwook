@@ -41,22 +41,22 @@
 <h5>고려대학교 스타트업 팀 Novelia 초기 서비스 MVP Project (신생 웹 소설 작가들을 위하여 실제 독자들의 피드백을 제공해주는 작가-독자 연결형 서비스 /사이트 주소 : https://www.novelier.co.kr (2023.5.8 현재 한국중소기업위원회 주최 예비 창업자 대회 준비를 위하여 구글 폼 형식으로 대체되어있음)</h5>
 <h5>"스터디" (홍익대학교 주변 스터디카페 및 도서관을 찾아주고, 사용자들의 후기를 들을 수 있는 학습 장소 탐색 서비스) </h5>
 <h5>TripPlannerz(졸업프로젝트이며, 여행을 좋아하는 사람들을 위해서 여행 장소 등을 추천해주고, 사용자가 여행 일정을 생성하여 함께할 동행자를 찾고, 방문할 여행 장소들에 대해서 최단 경로를 제공해주는 여행 종합 서비스)</h5>
-
 </p>
 <hr />
-<h3 align="center"> Solo Projects</h3>
-<p align="center">
- <h5 align = "center"> TodolistApp Project (Making Android Application about Todolist using Android Studio and Java Language) (2023.2) </h5>
- <h5 align = "center"> Mine Project (Making Mine Maze Game using React App for Practice) (2023.2) </h5>
- <h5 align = "center"> AI (Making Sample AI Models for studying) (Python) (2023.3~) </h5>
- </p>
- <hr />
- <h3 align="center"> Algorithm Studying</h3>
- <p align="center">
- <h5 align="center"> Data-Structure(Stack, Queue, priority_Queue, Tree(including BST, Segment Tree) , Graph , Linked-list) </h5>
- <h5 align="center"> Sorting(Bubble, Selection, Insertion, Quick, Merge, Radix, Topological) </h5>
- <h5 align="center"> Search(DFS, BFS, Binary-Search) </h5>
- <h5 align="center"> Solving Problem (Dynamic Programming, Greedy, Dijikstra, Union-find, Sliding-window, Two-pointer, Range-sum, Integer Theory, Geometry, Bellman-Ford, Flyod-Warshall, Least Spanning Tree, Combination) </h5>
+
+<h3>개인 프로젝트</h3>
+<p>
+ <h5> StockAuto (파이썬을 사용하였고, 대신증권 Creon Plus 증권 계좌 연동하여 주식 및 ETF 상품을 자동으로 매수/매도 할 수 있는 봇 서비스) </h5>
+ <h5> AI (파이썬 라이브러리 Tensorflow, Keras를 사용하여보며 CNN 등의 기술에 대해서 학습을 위해 구현)</h5>
+</p>
+<hr />
+ 
+ <h3>알고리즘</h3>
+ <p>
+ <h5> Data-Structure(Stack, Queue, priority_Queue, Tree(including BST, Segment Tree) , Graph , Linked-list) </h5>
+ <h5> Sorting(Bubble, Selection, Insertion, Quick, Merge, Radix, Topological) </h5>
+ <h5> Search(DFS, BFS, Binary-Search) </h5>
+ <h5> Solving Problem (Dynamic Programming, Greedy, Dijikstra, Union-find, Sliding-window, Two-pointer, Range-sum, Integer Theory, Geometry, Bellman-Ford, Flyod-Warshall, Least Spanning Tree, Combination) </h5>
 <!--
 **Lee-Dongwook/Lee-Dongwook** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 

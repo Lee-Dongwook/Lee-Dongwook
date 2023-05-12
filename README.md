@@ -4,16 +4,18 @@
 <h3 align="center">Tech & Tools</h3> 
 <p align="center"> Techs and Tools that I've used at least once </p>
 <p align="center">
-<img src = "https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/>
-<img src = "https://img.shields.io/badge/C++-00FF00?style=flat-square&logo=C%2B%2B&logoColor=black"/>
-<img src = "https://img.shields.io/badge/Java-FF0000?style=flat-square&logo=Java&logoColor=white"/>
-<img src = "https://img.shields.io/badge/C-FFFF00?style=flat-square&logo=C&logoColor=black"/>
-<img src = "https://img.shields.io/badge/Javascript-00FFFF?style=flat-square&logo=Javascript&logoColor=black"/>
-<img src = "https://img.shields.io/badge/HTML-FF00FF?style=flat-square&logo=HTML5&logoColor=black"/>
-<img src = "https://img.shields.io/badge/Kotlin-FF0000?style=flat-square&logo=Kotlin&logoColor=white"/>
-<img src = "https://img.shields.io/badge/NestJS-808080?style=flat-square&logo=NestJS&logoColor=white"/>
+<h4>Languages : </h4>
+<table>
+<td><img src = "https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/></td>
+<td><img src = "https://img.shields.io/badge/C++-00FF00?style=flat-square&logo=C%2B%2B&logoColor=black"/></td>
+<td><img src = "https://img.shields.io/badge/Java-FF0000?style=flat-square&logo=Java&logoColor=white"/></td>
+<td><img src = "https://img.shields.io/badge/C-FFFF00?style=flat-square&logo=C&logoColor=black"/></td>
+<td><img src = "https://img.shields.io/badge/Javascript-00FFFF?style=flat-square&logo=Javascript&logoColor=black"/></td>
+<td><img src = "https://img.shields.io/badge/Kotlin-FF0000?style=flat-square&logo=Kotlin&logoColor=white"/></td>
+</table>
 </p>
 <p align="center">
+<img src = "https://img.shields.io/badge/NestJS-808080?style=flat-square&logo=NestJS&logoColor=white"/>
 <img src = "https://img.shields.io/badge/CSS-808080?style=flat-square&logo=CSS3&logoColor=white"/>
 <img src = "https://img.shields.io/badge/Node.JS-009900?style=flat-square&logo=Node.JS&logoColor=white"/>
 <img src = "https://img.shields.io/badge/SpringBoot-66FF66?style=flat-square&logo=SpringBoot&logoColor=white"/>

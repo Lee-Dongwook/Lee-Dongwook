@@ -11,7 +11,6 @@
 <td><img src = "https://img.shields.io/badge/Java-FF0000?style=flat-square&logo=Java&logoColor=white"/></td>
 <td><img src = "https://img.shields.io/badge/C-FFFF00?style=flat-square&logo=C&logoColor=black"/></td>
 <td><img src = "https://img.shields.io/badge/Javascript-00FFFF?style=flat-square&logo=Javascript&logoColor=black"/></td>
-<td><img src = "https://img.shields.io/badge/Kotlin-FF0000?style=flat-square&logo=Kotlin&logoColor=white"/></td>
 </table>
 </p>
 <p align="center">

@@ -22,6 +22,11 @@
 <td><img src = "https://img.shields.io/badge/VueJS-00FF00?style=flat-square&logo=Vue.JS&logoColor=white"/></td>
 <td><img src = "https://img.shields.io/badge/Spring-66FF66?style=flat-square&logo=SpringBoot&logoColor=white"/></td>
 </table>
+<h4>Testing: </h4>
+<table>
+<td><img src = "https://img.shields.io/badge/Jest-FF9999?style=flat-square&logo=Jest&logoColor=black"/></td>
+<td><img src = "https://img.shields.io/badge/Playwright-00FF00?style=flat-square&logo=Playwright&logoColor=black"/></td>
+</table>
 <h4>Databases: </h4>
 <table>
 <td><img src = "https://img.shields.io/badge/Postgresql-FF9999?style=flat-square&logo=Postgresql&logoColor=black"/></td>

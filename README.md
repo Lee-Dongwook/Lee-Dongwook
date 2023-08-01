@@ -38,6 +38,11 @@
 <td><img src = "https://img.shields.io/badge/VSCode-67C8FF?style=flat-square&logo=VisualStudioCode&logoColor=white"/></td>
 <td><img src = "https://img.shields.io/badge/IntelliJ-000000?style=flat-square&logo=jetbrains&logoColor=white"/></td>
 </table>
+<h4>OS: </h4>
+<table>
+<td><img src = "https://img.shields.io/badge/Linux-000000?style=flat-square&logo=Linux&logoColor=white"/></td>
+<td><img src = "https://img.shields.io/badge/Windows-76C8FF?style=flat-square&logo=Windows&logoColor=white"/></td>
+</table>
 </p>
 <hr />
 <li>저의 포트폴리오 사이트 입니다. &nbsp;<a href="https://lee-dongwook.github.io/">PortFolio<a/></li>

@@ -11,6 +11,7 @@
 <td><img src = "https://img.shields.io/badge/Java-FF0000?style=flat-square&logo=Java&logoColor=white"/></td>
 <td><img src = "https://img.shields.io/badge/C-FFFF00?style=flat-square&logo=C&logoColor=black"/></td>
 <td><img src = "https://img.shields.io/badge/Javascript-00FFFF?style=flat-square&logo=Javascript&logoColor=black"/></td>
+<td><img src = "https://img.shields.io/badge/Typescript-0066CC?style=flat-square&logo=Typescript&logoColor=white"/></td>
 </table>
 </p>
 <p align="center">
@@ -18,10 +19,8 @@
 <table>
 <td><img src = "https://img.shields.io/badge/ReactJS-0066CC?style=flat-square&logo=React&logoColor=white"/></td>
 <td><img src = "https://img.shields.io/badge/NodeJS-009900?style=flat-square&logo=Node.JS&logoColor=white"/></td>
-<td><img src = "https://img.shields.io/badge/NestJS-808080?style=flat-square&logo=NestJS&logoColor=white"/></td>
 <td><img src = "https://img.shields.io/badge/VueJS-00FF00?style=flat-square&logo=Vue.JS&logoColor=white"/></td>
 <td><img src = "https://img.shields.io/badge/Spring-66FF66?style=flat-square&logo=SpringBoot&logoColor=white"/></td>
-<td><img src = "https://img.shields.io/badge/Django-000000?style=flat-square&logo=Django&logoColor=white"/></td>
 </table>
 <h4>Databases: </h4>
 <table>

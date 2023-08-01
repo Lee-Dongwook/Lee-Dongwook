@@ -18,8 +18,8 @@
 <h4>Frameworks: </h4>
 <table>
 <td><img src = "https://img.shields.io/badge/ReactJS-0066CC?style=flat-square&logo=React&logoColor=white"/></td>
-<td><img src = "https://img.shields.io/badge/NodeJS-009900?style=flat-square&logo=Node.JS&logoColor=white"/></td>
-<td><img src = "https://img.shields.io/badge/VueJS-00FF00?style=flat-square&logo=Vue.JS&logoColor=white"/></td>
+<td><img src = "https://img.shields.io/badge/NodeJS-008800?style=flat-square&logo=Node.JS&logoColor=white"/></td>
+<td><img src = "https://img.shields.io/badge/VueJS-00BB00?style=flat-square&logo=Vue.JS&logoColor=white"/></td>
 <td><img src = "https://img.shields.io/badge/Spring-66FF66?style=flat-square&logo=SpringBoot&logoColor=white"/></td>
 </table>
 <h4>Testing: </h4>

@@ -45,11 +45,6 @@
 </table>
 </p>
 <hr />
-<li>저의 포트폴리오 사이트 입니다. &nbsp;<a href="https://lee-dongwook.github.io/">PortFolio<a/></li>
+<li>Please Visit My PortFolio Site ! &nbsp;<a href="https://lee-dongwook.github.io/">PortFolio<a/></li>
 <hr />
- <h3>알고리즘 공부</h3>
- <p>
- <h5> 자료구조(스택, 큐, 우선순위 큐, 데큐, 트리, 그래프, 링크드리스트) </h5>
- <h5> 정렬(버블, 선택, 삽입, 퀵, 합병, 기수, 토폴로지)</h5>
- <h5> 핵심 알고리즘 (DP, 그리디, 다익스트라, 분할정복, 유니온-파인드, 슬라이딩윈도우, 투포인터, Range-sum, Integer Theory, Geometry, Bellman-Ford, Flyod-Warshall, Least Spanning Tree, Combination) </h5>
 

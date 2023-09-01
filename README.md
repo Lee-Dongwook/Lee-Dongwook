@@ -1,6 +1,6 @@
 
 <h1>Lee Dongwook</h1>
-[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=dlehddnrsub)](https://solved.ac/dlehddnrsub/)
+<img src="https://github-readme-stats.vercel.app/api?username=Lee-Dongwook&theme=tokyonight" alt="Dongwook's GitHub stats">
 <h3 align="center">Tech & Tools</h3> 
 <p align="center"> Techs and Tools that I've used at least once </p>
 <p align="center">

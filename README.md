@@ -3,6 +3,8 @@
 <img src="https://github-readme-stats.vercel.app/api?username=Lee-Dongwook&theme=tokyonight" alt="Dongwook's GitHub stats">
 <a href="https://solved.ac/dlehddnrsub/">
   <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=dlehddnrsub" alt="Solved.ac Profile">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lee-Dongwook&layout=compact&theme=tokyonight" alt="Top Languages">
+
 </a>
 <h3 align="center">Tech & Tools</h3> 
 <p align="center"> Techs and Tools that I've used at least once </p>

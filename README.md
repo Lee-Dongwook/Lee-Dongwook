@@ -13,7 +13,7 @@
 <table>
 <td><img src = "https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/></td>
 <td><img src = "https://img.shields.io/badge/C++-00FF00?style=flat-square&logo=C%2B%2B&logoColor=black"/></td>
-<td><img src = "https://img.shields.io/badge/Java-FF0000?style=flat-square&logo=Java&logoColor=white"/></td>
+<td><img src = "https://img.shields.io/badge/Java-FF0000?style=flat-square&logo=JDK&logoColor=white"/></td>
 <td><img src = "https://img.shields.io/badge/C-FFFF00?style=flat-square&logo=C&logoColor=black"/></td>
 <td><img src = "https://img.shields.io/badge/Javascript-00FFFF?style=flat-square&logo=Javascript&logoColor=black"/></td>
 <td><img src = "https://img.shields.io/badge/Typescript-0066CC?style=flat-square&logo=Typescript&logoColor=white"/></td>
@@ -34,6 +34,7 @@
 </table>
 <h4>Databases: </h4>
 <table>
+<td><img src = "https://img.shields.io/badge/MongoDB-00BB00?style=flat-square&logo=MongoDB&logoColor=white"/></td>
 <td><img src = "https://img.shields.io/badge/Postgresql-FF9999?style=flat-square&logo=Postgresql&logoColor=black"/></td>
 <td><img src = "https://img.shields.io/badge/Mysql-FFCC99?style=flat-square&logo=Mysql&logoColor=black"/></td>
 </table>

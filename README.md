@@ -22,14 +22,14 @@
 <p align="center">
 <h4>Frameworks: </h4>
 <table>
-<td><img src = "https://img.shields.io/badge/ReactJS-0066CC?style=flat-square&logo=React&logoColor=white"/></td>
-<td><img src = "https://img.shields.io/badge/NodeJS-008800?style=flat-square&logo=Node.JS&logoColor=white"/></td>
-<td><img src = "https://img.shields.io/badge/VueJS-00BB00?style=flat-square&logo=Vue.JS&logoColor=white"/></td>
+<td><img src = "https://img.shields.io/badge/React-0066CC?style=flat-square&logo=React&logoColor=white"/></td>
+<td><img src = "https://img.shields.io/badge/Node-008800?style=flat-square&logo=Node.JS&logoColor=white"/></td>
+<td><img src = "https://img.shields.io/badge/Vue-00BB00?style=flat-square&logo=Vue.JS&logoColor=white"/></td>
+<td><img src = "https://img.shields.io/badge/Next-000000?style=flat-square&logo=Next.JS&logoColor=white"/></td>
 <td><img src = "https://img.shields.io/badge/Spring-66FF66?style=flat-square&logo=SpringBoot&logoColor=white"/></td>
 </table>
 <h4>Testing: </h4>
 <table>
-<td><img src = "https://img.shields.io/badge/Jest-FF9999?style=flat-square&logo=Jest&logoColor=black"/></td>
 <td><img src = "https://img.shields.io/badge/Playwright-00FF00?style=flat-square&logo=Playwright&logoColor=black"/></td>
 </table>
 <h4>Databases: </h4>

@@ -23,7 +23,7 @@
 <h4>Frameworks: </h4>
 <table>
 <td><img src = "https://img.shields.io/badge/React-0066CC?style=flat-square&logo=React&logoColor=white"/></td>
-<td><img src = "https://img.shields.io/badge/Node-008800?style=flat-square&logo=Node.JS&logoColor=white"/></td>
+<td><img src = "https://img.shields.io/badge/Express-008800?style=flat-square&logo=Express&logoColor=white"/></td>
 <td><img src = "https://img.shields.io/badge/Vue-00BB00?style=flat-square&logo=Vue.JS&logoColor=white"/></td>
 <td><img src = "https://img.shields.io/badge/Next-000000?style=flat-square&logo=Next.JS&logoColor=white"/></td>
 <td><img src = "https://img.shields.io/badge/Spring-66FF66?style=flat-square&logo=SpringBoot&logoColor=white"/></td>

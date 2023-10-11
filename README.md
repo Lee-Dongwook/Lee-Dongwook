@@ -11,12 +11,24 @@
 <p align="center">
 <h4>Languages : </h4>
 <table>
-<td><img src = "https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/></td>
-<td><img src = "https://img.shields.io/badge/C++-50BCDF?style=flat-square&logo=C%2B%2B&logoColor=white"/></td>
-<td><img src = "https://img.shields.io/badge/Java-FF0000?style=flat-square&logo=JDK&logoColor=white"/></td>
-<td><img src = "https://img.shields.io/badge/C-50BCDF?style=flat-square&logo=C&logoColor=white"/></td>
-<td><img src = "https://img.shields.io/badge/Javascript-FFFF00?style=flat-square&logo=Javascript&logoColor=black"/></td>
-<td><img src = "https://img.shields.io/badge/Typescript-0066CC?style=flat-square&logo=Typescript&logoColor=white"/></td>
+<tr>
+  <td>Web-FE </td>
+  <td><img src = "https://img.shields.io/badge/Javascript-FFFF00?style=flat-square&logo=Javascript&logoColor=black"/></td>
+  <td><img src = "https://img.shields.io/badge/Typescript-0066CC?style=flat-square&logo=Typescript&logoColor=white"/></td>
+</tr>
+<tr>
+  <td>Web-BE </td>
+  <td><img src = "https://img.shields.io/badge/Java-FF0000?style=flat-square&logo=JDK&logoColor=white"/></td>
+</tr>
+<tr>
+  <td>Algorithms </td>
+  <td><img src = "https://img.shields.io/badge/C-50BCDF?style=flat-square&logo=C&logoColor=white"/></td>
+  <td><img src = "https://img.shields.io/badge/C++-50BCDF?style=flat-square&logo=C%2B%2B&logoColor=white"/></td>
+</tr>
+<tr>
+  <td>Data Analysis</td>
+  <td><img src = "https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/></td>
+</tr>
 </table>
 </p>
 <p align="center">

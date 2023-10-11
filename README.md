@@ -7,7 +7,7 @@
 
 </a>
 <h3 align="center">Tech & Tools</h3> 
-<p align="center"> Techs and Tools that I've used at least once </p>
+<p align="center"> Techs and Tools that I've used at least once or studying now </p>
 <p align="center">
 <h4>Languages : </h4>
 <table>
@@ -22,11 +22,17 @@
 <p align="center">
 <h4>Frameworks: </h4>
 <table>
-<td><img src = "https://img.shields.io/badge/React-0066CC?style=flat-square&logo=React&logoColor=white"/></td>
-<td><img src = "https://img.shields.io/badge/Express-008800?style=flat-square&logo=Express&logoColor=white"/></td>
-<td><img src = "https://img.shields.io/badge/Vue-00BB00?style=flat-square&logo=Vue.JS&logoColor=white"/></td>
-<td><img src = "https://img.shields.io/badge/Next-000000?style=flat-square&logo=Next.JS&logoColor=white"/></td>
-<td><img src = "https://img.shields.io/badge/Spring-66FF66?style=flat-square&logo=SpringBoot&logoColor=white"/></td>
+  <tr>
+    <td>FE: </td> 
+    <td><img src = "https://img.shields.io/badge/React-0066CC?style=flat-square&logo=React&logoColor=white"/></td>
+    <td><img src = "https://img.shields.io/badge/Vue-00BB00?style=flat-square&logo=Vue.JS&logoColor=white"/></td>
+    <td><img src = "https://img.shields.io/badge/Next-000000?style=flat-square&logo=Next.JS&logoColor=white"/></td>
+  </tr>
+  <tr>
+     <td>BE: </td> 
+     <td><img src = "https://img.shields.io/badge/Express-008800?style=flat-square&logo=Express&logoColor=white"/></td>
+     <td><img src = "https://img.shields.io/badge/Spring-66FF66?style=flat-square&logo=SpringBoot&logoColor=white"/></td>
+  </tr>
 </table>
 <h4>Testing: </h4>
 <table>

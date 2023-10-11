@@ -43,6 +43,7 @@
 <td><img src = "https://img.shields.io/badge/MongoDB-00BB00?style=flat-square&logo=MongoDB&logoColor=white"/></td>
 <td><img src = "https://img.shields.io/badge/Postgresql-0066CC?style=flat-square&logo=Postgresql&logoColor=white"/></td>
 <td><img src = "https://img.shields.io/badge/Mysql-FFCC99?style=flat-square&logo=Mysql&logoColor=black"/></td>
+<td><img src = "https://img.shields.io/badge/Redis-FF0000?style=flat-square&logo=Redis&logoColor=white"/></td>
 </table>
 <h4>IDE: </h4>
 <table>

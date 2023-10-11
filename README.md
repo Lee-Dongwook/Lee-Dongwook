@@ -29,6 +29,7 @@
 <tr>
   <td>Data Analysis</td>
   <td><img src = "https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/></td>
+  <td><img src = "https://img.shields.io/badge/R-808080?style=flat-square&logo=R&logoColor=white"/></td>
 </tr>
 </table>
 </p>

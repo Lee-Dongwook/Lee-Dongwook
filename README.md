@@ -49,6 +49,7 @@
 </table>
 <h4>Testing: </h4>
 <table>
+<td><img src = "https://img.shields.io/badge/Selenium-008000?style=flat-square&logo=Selenium&logoColor=white"/></td>
 <td><img src = "https://img.shields.io/badge/Playwright-000000?style=flat-square&logo=Playwright&logoColor=white"/></td>
 </table>
 <h4>Databases: </h4>
@@ -57,6 +58,10 @@
 <td><img src = "https://img.shields.io/badge/Postgresql-0066CC?style=flat-square&logo=Postgresql&logoColor=white"/></td>
 <td><img src = "https://img.shields.io/badge/Mysql-FFCC99?style=flat-square&logo=Mysql&logoColor=black"/></td>
 <td><img src = "https://img.shields.io/badge/Redis-FF0000?style=flat-square&logo=Redis&logoColor=white"/></td>
+</table>
+<h4>DevOps: </h4>
+<table>
+  <td><img src = "https://img.shields.io/badge/Docker-50bcdf?style=flat-square&logo=Docker&logoColor=white"/></td>
 </table>
 <h4>IDE: </h4>
 <table>

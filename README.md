@@ -59,9 +59,10 @@
 <td><img src = "https://img.shields.io/badge/Mysql-FFCC99?style=flat-square&logo=Mysql&logoColor=black"/></td>
 <td><img src = "https://img.shields.io/badge/Redis-FF0000?style=flat-square&logo=Redis&logoColor=white"/></td>
 </table>
-<h4>DevOps: </h4>
+<h4>DevOps & Platform: </h4>
 <table>
   <td><img src = "https://img.shields.io/badge/Docker-50bcdf?style=flat-square&logo=Docker&logoColor=white"/></td>
+  <td><img src = "https://img.shields.io/badge/Firebase-FF7F00?style=flat-square&logo=Firebase&logoColor=white"/></td>
 </table>
 <h4>IDE: </h4>
 <table>

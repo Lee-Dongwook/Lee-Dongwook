@@ -18,6 +18,7 @@
 </tr>
 <tr>
   <td>Web-BE </td>
+  <td><img src = "https://img.shields.io/badge/Javascript-FFFF00?style=flat-square&logo=Javascript&logoColor=black"/></td>
   <td><img src = "https://img.shields.io/badge/Java-FF0000?style=flat-square&logo=JDK&logoColor=white"/></td>
 </tr>
 <tr>

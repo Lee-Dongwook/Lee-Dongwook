@@ -25,8 +25,9 @@
   <tr>
     <td>FE: </td> 
     <td><img src = "https://img.shields.io/badge/React-0066CC?style=flat-square&logo=React&logoColor=white"/></td>
-    <td><img src = "https://img.shields.io/badge/Vue-00BB00?style=flat-square&logo=Vue.JS&logoColor=white"/></td>
     <td><img src = "https://img.shields.io/badge/Next-000000?style=flat-square&logo=Next.JS&logoColor=white"/></td>
+    <td><img src = "https://img.shields.io/badge/Svelte-FF7F00?style=flat-square&logo=Svelte&logoColor=white"/></td>
+    <td><img src = "https://img.shields.io/badge/Vue-00BB00?style=flat-square&logo=Vue.JS&logoColor=white"/></td>
   </tr>
   <tr>
      <td>BE: </td> 

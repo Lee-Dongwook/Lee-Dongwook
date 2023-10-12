@@ -49,6 +49,11 @@
      <td><img src = "https://img.shields.io/badge/Spring-66FF66?style=flat-square&logo=SpringBoot&logoColor=white"/></td>
   </tr>
 </table>
+<h4>Design: </h4>
+<table>
+  <td><img src = "https://img.shields.io/badge/Figma-000000?style=flat-square&logo=Figma&logoColor=white"/></td>
+  <td><img src = "https://img.shields.io/badge/StoryBook-FF3399?style=flat-square&logo=Storybook&logoColor=white"/></td>
+</table>
 <h4>Testing: </h4>
 <table>
 <td><img src = "https://img.shields.io/badge/Selenium-008000?style=flat-square&logo=Selenium&logoColor=white"/></td>

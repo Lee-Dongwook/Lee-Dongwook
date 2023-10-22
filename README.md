@@ -49,6 +49,13 @@
      <td><img src = "https://img.shields.io/badge/Spring-66FF66?style=flat-square&logo=SpringBoot&logoColor=white"/></td>
   </tr>
 </table>
+<h4>State Managements: </h4>
+<table>
+  <td><img src="https://img.shields.io/badge/redux-8B00FF?style=flat-square&logo=redux&logoColor=white"/></td>
+  <td><img src="https://img.shields.io/badge/recoil-0000FF?style=flat-square&logo=recoil&logoColor=white"/></td>
+  <td><img src="https://img.shields.io/badge/graphql-FFFFD0?style=flat-square&logo=graphql&logoColor=pink"/></td>
+  <td><img src="https://img.shields.io/badge/ReactQuery-FFFFFF?style=flat-square&logo=react-query&logoColor=black"/></td>
+</table>
 <h4>Design: </h4>
 <table>
   <td><img src = "https://img.shields.io/badge/Figma-000000?style=flat-square&logo=Figma&logoColor=white"/></td>
@@ -70,6 +77,7 @@
 <table>
   <td><img src = "https://img.shields.io/badge/Docker-50bcdf?style=flat-square&logo=Docker&logoColor=white"/></td>
   <td><img src = "https://img.shields.io/badge/Firebase-FF7F00?style=flat-square&logo=Firebase&logoColor=white"/></td>
+  <td><img src = "https://img.shields.io/badge/Nginx-00FF00?style=flat-square&logo=Nginx&logoColor=white"/></td>
 </table>
 <h4>IDE: </h4>
 <table>

@@ -1,4 +1,7 @@
 # Lee Dongwook
+
+[![About-me Badge](https://img.shields.io/badge/-About%20me-000000?style=flat-square)](https://lee-dongwook.github.io)
+
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Lee-Dongwook&theme=tokyonight)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Lee-Dongwook&layout=compact&theme=tokyonight)
 
@@ -18,7 +21,4 @@
 ![Docker](https://img.shields.io/badge/Docker-50bcdf?style=flat-square&logo=Docker&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-FF7F00?style=flat-square&logo=Firebase&logoColor=white)
 ![VSCode](https://img.shields.io/badge/VSCode-67C8FF?style=flat-square&logo=VisualStudioCode&logoColor=white)
-<hr />
-Please Visit My PortFolio WebSite ! &nbsp;<a href="https://lee-dongwook.github.io/">PortFolio<a/>
-<hr />
 

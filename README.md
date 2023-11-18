@@ -1,11 +1,8 @@
+# Lee Dongwook
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Lee-Dongwook&theme=tokyonight)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Lee-Dongwook&layout=compact&theme=tokyonight)
 
-<h1>Lee Dongwook</h1>
-<img src="https://github-readme-stats.vercel.app/api?username=Lee-Dongwook&theme=tokyonight" alt="Dongwook's GitHub stats">
-<a href="https://solved.ac/dlehddnrsub/">
-  <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=dlehddnrsub" alt="Solved.ac Profile">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lee-Dongwook&layout=compact&theme=tokyonight" alt="Top Languages">
 
-</a>
 
 ## Languages & Tools!
 ![Typescript](https://img.shields.io/badge/Typescript-0066CC?style=flat-square&logo=Typescript&logoColor=white)

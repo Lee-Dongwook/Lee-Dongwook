@@ -3,7 +3,6 @@
 [![About-me Badge](https://img.shields.io/badge/-About%20me-000000?style=flat-square)](https://lee-dongwook.github.io)
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Lee-Dongwook&theme=tokyonight)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Lee-Dongwook&layout=compact&theme=tokyonight)
 
 
 

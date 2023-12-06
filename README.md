@@ -24,6 +24,8 @@
 [![Docker](https://img.shields.io/badge/Docker-%232496ED?style=flat&logo=docker&logoColor=white)](https://www.docker.com/)
 [![Firebase](https://img.shields.io/badge/Firebase-%23FFCA28?style=flat&logo=firebase&logoColor=black)](https://firebase.google.com/)
 [![VSCode](https://img.shields.io/badge/VS_Code-%23007ACC?style=flat&logo=visual-studio-code&logoColor=white)](https://code.visualstudio.com/)
+[![Linux](https://img.shields.io/badge/Linux-%23FCC624?style=flat&logo=linux&logoColor=black)](https://www.linux.org/)
+
 
 
 ## Profile

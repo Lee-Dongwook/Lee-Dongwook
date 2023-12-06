@@ -7,19 +7,20 @@
 
 
 ## Languages & Tools!
-![Typescript](https://img.shields.io/badge/Typescript-0066CC?style=flat-square&logo=Typescript&logoColor=white)
-![Javascript](https://img.shields.io/badge/Javascript-FFFF00?style=flat-square&logo=Javascript&logoColor=black) 
-![React](https://img.shields.io/badge/React-0066CC?style=flat-square&logo=React&logoColor=white)
-![Next.JS](https://img.shields.io/badge/Next-000000?style=flat-square&logo=Next.JS&logoColor=white)
-![Redux](https://img.shields.io/badge/redux-8B00FF?style=flat-square&logo=redux&logoColor=white)
-![Recoil](https://img.shields.io/badge/recoil-0000FF?style=flat-square&logo=recoil&logoColor=white)
-![GraphQL](https://img.shields.io/badge/graphql-FFFFD0?style=flat-square&logo=graphql&logoColor=pink)
-![ReactQuery](https://img.shields.io/badge/ReactQuery-FFFFFF?style=flat-square&logo=react-query&logoColor=black)
-![Storybook](https://img.shields.io/badge/StoryBook-FF3399?style=flat-square&logo=Storybook&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-000000?style=flat-square&logo=Playwright&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-50bcdf?style=flat-square&logo=Docker&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FF7F00?style=flat-square&logo=Firebase&logoColor=white)
-![VSCode](https://img.shields.io/badge/VSCode-67C8FF?style=flat-square&logo=VisualStudioCode&logoColor=white)
+[![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E?style=flat&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![TypeScript](https://img.shields.io/badge/TypeScript-%233178C6?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![React](https://img.shields.io/badge/React-%2361DAFB?style=flat&logo=react&logoColor=white)](https://reactjs.org/)
+[![NextJS](https://img.shields.io/badge/Next.js-%23000000?style=flat&logo=next.js&logoColor=white)](https://nextjs.org/)
+[![Redux](https://img.shields.io/badge/Redux-%23764ABC?style=flat&logo=redux&logoColor=white)](https://redux.js.org/)
+[![Recoil](https://img.shields.io/badge/Recoil-%2384BCD8?style=flat&logo=recoil&logoColor=white)](https://recoiljs.org/)
+[![GraphQL](https://img.shields.io/badge/GraphQL-%23E10098?style=flat&logo=graphql&logoColor=white)](https://graphql.org/)
+[![React Query](https://img.shields.io/badge/React_Query-%2385d0d3?style=flat&logo=react-query&logoColor=white)](https://react-query.tanstack.com/)
+[![Storybook](https://img.shields.io/badge/Storybook-%23FF4785?style=flat&logo=storybook&logoColor=white)](https://storybook.js.org/)
+[![Playwright](https://img.shields.io/badge/Playwright-%231099FF?style=flat&logo=playwright&logoColor=white)](https://playwright.dev/)
+[![Docker](https://img.shields.io/badge/Docker-%232496ED?style=flat&logo=docker&logoColor=white)](https://www.docker.com/)
+[![Firebase](https://img.shields.io/badge/Firebase-%23FFCA28?style=flat&logo=firebase&logoColor=black)](https://firebase.google.com/)
+[![VSCode](https://img.shields.io/badge/VS_Code-%23007ACC?style=flat&logo=visual-studio-code&logoColor=white)](https://code.visualstudio.com/)
+
 
 ## Profile
 - **홍익대학교 정보컴퓨터공학부 컴퓨터공학전공 (2018.03 ~ 2024.08 졸업예정)**

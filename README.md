@@ -21,6 +21,8 @@
 [![Recoil](https://img.shields.io/badge/Recoil-%2384BCD8?style=flat&logo=recoil&logoColor=white)](https://recoiljs.org/)
 [![GraphQL](https://img.shields.io/badge/GraphQL-%23E10098?style=flat&logo=graphql&logoColor=white)](https://graphql.org/)
 [![React Query](https://img.shields.io/badge/React_Query-%2385d0d3?style=flat&logo=react-query&logoColor=white)](https://react-query.tanstack.com/)
+[![SWR](https://img.shields.io/badge/SWR-%23000000?style=flat&logo=vercel&logoColor=white)](https://swr.vercel.app/)
+
 
 [![npm](https://img.shields.io/badge/npm-%23CB3837?style=flat&logo=npm&logoColor=white)](https://www.npmjs.com/)
 [![Yarn](https://img.shields.io/badge/Yarn-%232C8EBB?style=flat&logo=yarn&logoColor=white)](https://yarnpkg.com/)

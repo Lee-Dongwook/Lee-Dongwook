@@ -12,6 +12,7 @@
 
 [![React](https://img.shields.io/badge/React-%2361DAFB?style=flat&logo=react&logoColor=white)](https://reactjs.org/)
 [![NextJS](https://img.shields.io/badge/Next.js-%23000000?style=flat&logo=next.js&logoColor=white)](https://nextjs.org/)
+[![express](https://img.shields.io/badge/express-green?style=flat&logo=express&logoColor=white)](https://www.npmjs.com/package/express)
 
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-%231a202c?style=flat&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![Ant Design](https://img.shields.io/badge/Ant_Design-%230170FE?style=flat&logo=ant-design&logoColor=white)](https://ant.design/)
@@ -22,7 +23,7 @@
 [![GraphQL](https://img.shields.io/badge/GraphQL-%23E10098?style=flat&logo=graphql&logoColor=white)](https://graphql.org/)
 [![React Query](https://img.shields.io/badge/React_Query-%2385d0d3?style=flat&logo=react-query&logoColor=white)](https://react-query.tanstack.com/)
 [![SWR](https://img.shields.io/badge/SWR-%23000000?style=flat&logo=vercel&logoColor=white)](https://swr.vercel.app/)
-
+[![typeorm](https://img.shields.io/badge/typeorm-red?style=flat&logo=typeorm&logoColor=white)](https://www.npmjs.com/package/typeorm)
 
 [![npm](https://img.shields.io/badge/npm-%23CB3837?style=flat&logo=npm&logoColor=white)](https://www.npmjs.com/)
 [![Yarn](https://img.shields.io/badge/Yarn-%232C8EBB?style=flat&logo=yarn&logoColor=white)](https://yarnpkg.com/)

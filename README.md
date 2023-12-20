@@ -17,7 +17,7 @@
 [![express](https://img.shields.io/badge/express-green?style=flat&logo=express&logoColor=white)](https://www.npmjs.com/package/express)
 [![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat&logo=node.js&logoColor=white)](https://nodejs.org/)
 
-
+![Styled Components Badge](https://img.shields.io/badge/styled%20components-DB7093?style=flat-square&logo=styled-components&logoColor=white)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-%231a202c?style=flat&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![Ant Design](https://img.shields.io/badge/Ant_Design-%230170FE?style=flat&logo=ant-design&logoColor=white)](https://ant.design/)
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-%23563D7C?style=flat&logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
@@ -40,10 +40,16 @@
 [![Storybook](https://img.shields.io/badge/Storybook-%23FF4785?style=flat&logo=storybook&logoColor=white)](https://storybook.js.org/)
 [![Playwright](https://img.shields.io/badge/Playwright-%231099FF?style=flat&logo=playwright&logoColor=white)](https://playwright.dev/)
 
+![MongoDB Badge](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=MongoDB&logoColor=white)
+![PostgreSQL Badge](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=PostgreSQL&logoColor=white)
+
 [![Docker](https://img.shields.io/badge/Docker-%232496ED?style=flat&logo=docker&logoColor=white)](https://www.docker.com/)
 [![Firebase](https://img.shields.io/badge/Firebase-%23FFCA28?style=flat&logo=firebase&logoColor=black)](https://firebase.google.com/)
+![Vercel Badge](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=Vercel&logoColor=white)
 [![VSCode](https://img.shields.io/badge/VS_Code-%23007ACC?style=flat&logo=visual-studio-code&logoColor=white)](https://code.visualstudio.com/)
-[![Linux](https://img.shields.io/badge/Linux-%23FCC624?style=flat&logo=linux&logoColor=black)](https://www.linux.org/)
+![IntelliJ Badge](https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=flat-square&logo=IntelliJ%20IDEA&logoColor=white)
+![Android Studio Badge](https://img.shields.io/badge/Android%20Studio-3DDC84?style=flat-square&logo=Android%20Studio&logoColor=white)
+![Ubuntu Badge](https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=Ubuntu&logoColor=white)
 
 
 

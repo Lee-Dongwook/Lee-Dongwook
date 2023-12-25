@@ -1,6 +1,6 @@
 # Lee Dongwook
 
-[![About-me Badge](https://img.shields.io/badge/-About%20me-000000?style=flat-square)](https://lee-dongwook.github.io)
+[![About-me Badge](https://img.shields.io/badge/-About%20me-000000)](https://about-me-plum.vercel.app/)
 [![Resume Badge](https://img.shields.io/badge/notion-D3D3D3?style=flat&logo=notion&logoColor=white)](https://zigzag-citrus-12b.notion.site/cbebb0f2e3634f409ab5267485e3bc86?pvs=4)
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Lee-Dongwook&theme=tokyonight)

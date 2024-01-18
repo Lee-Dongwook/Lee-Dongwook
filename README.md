@@ -4,7 +4,7 @@
 [![LinkedIn Badge](http://img.shields.io/badge/-LinkedIn-0072b1?style=flat&logo=linkedin&link=https://www.linkedin.com/in/%EB%8F%99%EC%9A%B1-%EC%9D%B4-1095112a0/)](https://www.linkedin.com/in/%EB%8F%99%EC%9A%B1-%EC%9D%B4-1095112a0/)
 [![Velog Badge](http://img.shields.io/badge/-Velog-20c997?style=flat&link=https://velog.io/@dlehddnr99/)](https://velog.io/@dlehddnr99/)
 
-### 안녕하세요👋 웹 프론트엔드 개발자 이동욱입니다.   
+### 안녕하세요👋 &nbsp; 웹 프론트엔드 개발자 이동욱입니다!   
 ### 저만의 홈페이지를 만들어 사람들에게 콘텐츠를 제공하는 목표를 가지고 웹 공부를 시작하게 되었습니다.
 
 ### 저는 _______ 합니다.

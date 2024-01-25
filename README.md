@@ -1,7 +1,7 @@
 # Lee Dongwook
 [![About Badge](https://img.shields.io/badge/AboutMe-000000?style=flat&logo=AboutMe&logoColor=white)](https://about-dong-wook.vercel.app)
 [![Resume Badge](https://img.shields.io/badge/notion-D3D3D3?style=flat&logo=notion&logoColor=white)](https://zigzag-citrus-12b.notion.site/cbebb0f2e3634f409ab5267485e3bc86?pvs=4)
-[![LinkedIn Badge](http://img.shields.io/badge/-LinkedIn-0072b1?style=flat&logo=linkedin&link=https://www.linkedin.com/in/%EB%8F%99%EC%9A%B1-%EC%9D%B4-1095112a0/)](https://www.linkedin.com/in/%EB%8F%99%EC%9A%B1-%EC%9D%B4-1095112a0/)
+[![LinkedIn Badge](http://img.shields.io/badge/-LinkedIn-0072b1?style=flat&logo=linkedin&link=https://www.linkedin.com/in/dong-wook-lee-1095112a0/)](https://www.linkedin.com/in/dong-wook-lee-1095112a0/)
 [![Velog Badge](http://img.shields.io/badge/-Velog-20c997?style=flat&link=https://velog.io/@dlehddnr99/)](https://velog.io/@dlehddnr99/)
 
 ### 👋 안녕하세요! 웹 프론트엔드 개발자 이동욱입니다.   

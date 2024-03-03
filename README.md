@@ -2,7 +2,7 @@
 [![Github IO](https://img.shields.io/badge/Github.io-000000?style=flat&logo=AboutMe&logoColor=white)](https://lee-dongwook.github.io/)
 [![About Badge](https://img.shields.io/badge/AboutMe-000000?style=flat&logo=AboutMe&logoColor=white)](https://about-dong-wook.vercel.app)
 
-[![Resume Badge](https://img.shields.io/badge/notion-D3D3D3?style=flat&logo=notion&logoColor=white)](https://zigzag-citrus-12b.notion.site/cbebb0f2e3634f409ab5267485e3bc86?pvs=4)
+[![Resume Badge](https://img.shields.io/badge/notion-D3D3D3?style=flat&logo=notion&logoColor=white)](https://zigzag-citrus-12b.notion.site/cd0f3792573b4f45bfb94e4493be1adf)
 [![LinkedIn Badge](http://img.shields.io/badge/-LinkedIn-0072b1?style=flat&logo=linkedin&link=https://www.linkedin.com/in/dong-wook-lee-1095112a0/)](https://www.linkedin.com/in/dong-wook-lee-1095112a0/)
 [![Velog Badge](http://img.shields.io/badge/-Velog-20c997?style=flat&link=https://velog.io/@dlehddnr99/)](https://velog.io/@dlehddnr99/)
 

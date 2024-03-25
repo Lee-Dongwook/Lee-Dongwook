@@ -15,6 +15,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           USERNAME: Lee-Dongwook
+      - name: Refresh New Version
+        run: git pull origin main
+        
       - name: Commit & Push
         run: |
           git config user.name "Lee-Dongwook"
@@ -22,3 +25,6 @@ jobs:
           git add -A .
           git commit -m "generated"
           git push
+
+
+     

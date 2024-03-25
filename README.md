@@ -1,25 +1,17 @@
 # Lee Dongwook
+
+## 👋 안녕하세요! 이동욱입니다.
+
+
+
 [![Github IO](https://img.shields.io/badge/Github.io-000000?style=flat&logo=AboutMe&logoColor=white)](https://lee-dongwook.github.io/)
 [![About Badge](https://img.shields.io/badge/AboutMe-000000?style=flat&logo=AboutMe&logoColor=white)](https://about-dong-wook.vercel.app)
-
 [![Resume Badge](https://img.shields.io/badge/notion-D3D3D3?style=flat&logo=notion&logoColor=white)](https://zigzag-citrus-12b.notion.site/cd0f3792573b4f45bfb94e4493be1adf)
 [![LinkedIn Badge](http://img.shields.io/badge/-LinkedIn-0072b1?style=flat&logo=linkedin&link=https://www.linkedin.com/in/dong-wook-lee-1095112a0/)](https://www.linkedin.com/in/dong-wook-lee-1095112a0/)
 [![Velog Badge](http://img.shields.io/badge/-Velog-20c997?style=flat&link=https://velog.io/@dlehddnr99/)](https://velog.io/@dlehddnr99/)
 
-### 👋 안녕하세요! 프론트엔드 개발자 이동욱입니다.   
-### 저만의 홈페이지를 만들어 사람들에게 콘텐츠를 제공하는 목표를 가지고 웹 공부를 시작하게 되었습니다.
 
-### 저는 _______ 합니다.
-
-#### 1. 더 나은 사용자 경험을 제공하고, 웹 성능을 최적화하기 위해 새로운 기술들을 꾸준히 탐구
-#### 2. 학습한 내용들을 바탕으로 지식 공유의 기회를 늘리고자 활동
-#### 3. 클린 코드를 지향하고 원활한 커뮤니케이션 능력을 보유하고자 노력
-
-
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Lee-Dongwook&theme=tokyonight)
-
-
+![](./profile-3d-contrib/profile-night-rainbow.svg)
 
 ## Techs I've Learned and Used!
 [![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E?style=flat&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)

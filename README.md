@@ -2,7 +2,13 @@
 
 ## 👋 안녕하세요! 이동욱입니다.
 
+### 문제를 발견하고 기술적으로 해결하는 과정을 꾸준히 지속하고자 합니다.
+프로젝트를 수행하며 발생한 문제들을 해결하고, 더 나은 사용자 경험 제공과 성능 향상을 목표로 새로운 기술을 적용해보며 학습을 꾸준히 합니다.   
 
+동료 피드백을 수용하여 부족한 부분을 지속적으로 개선하고자 노력합니다.
+
+### 지식과 경험을 공유하고 함께 성장하고자 노력합니다.
+기술 블로그를 운영하고 있습니다.
 
 [![Github IO](https://img.shields.io/badge/Github.io-000000?style=flat&logo=AboutMe&logoColor=white)](https://lee-dongwook.github.io/)
 [![About Badge](https://img.shields.io/badge/AboutMe-000000?style=flat&logo=AboutMe&logoColor=white)](https://about-dong-wook.vercel.app)
@@ -10,10 +16,8 @@
 [![LinkedIn Badge](http://img.shields.io/badge/-LinkedIn-0072b1?style=flat&logo=linkedin&link=https://www.linkedin.com/in/dong-wook-lee-1095112a0/)](https://www.linkedin.com/in/dong-wook-lee-1095112a0/)
 [![Velog Badge](http://img.shields.io/badge/-Velog-20c997?style=flat&link=https://velog.io/@dlehddnr99/)](https://velog.io/@dlehddnr99/)
 
+## 기술 스택
 
-![](./profile-3d-contrib/profile-night-rainbow.svg)
-
-## Techs I've Learned and Used!
 [![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E?style=flat&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![TypeScript](https://img.shields.io/badge/TypeScript-%233178C6?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![React](https://img.shields.io/badge/React-%2361DAFB?style=flat&logo=react&logoColor=white)](https://reactjs.org/)
@@ -47,3 +51,4 @@
 | (주) 엑셈 FE 인턴                           | 2023.07 ~ 2023.12        |
 | 원티드 프리온보딩 프론트엔드 1월 챌린지     | 2024.01                  |
 
+![](./profile-3d-contrib/profile-night-rainbow.svg)

@@ -1,6 +1,6 @@
 # Lee Dongwook
 
-## 👋 안녕하세요! 프론트엔드 개발자 이동욱입니다.
+## 👋 안녕하세요! 프로덕트 엔지니어를 희망하는 이동욱입니다.
 
 [![Resume Badge](https://img.shields.io/badge/notion-D3D3D3?style=flat&logo=notion&logoColor=white)](https://zigzag-citrus-12b.notion.site/cd0f3792573b4f45bfb94e4493be1adf)
 [![LinkedIn Badge](http://img.shields.io/badge/-LinkedIn-0072b1?style=flat&logo=linkedin&link=https://www.linkedin.com/in/dong-wook-lee-1095112a0/)](https://www.linkedin.com/in/dong-wook-lee-1095112a0/)

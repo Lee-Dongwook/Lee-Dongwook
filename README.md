@@ -4,7 +4,8 @@
 
 [![Resume Badge](https://img.shields.io/badge/notion-D3D3D3?style=flat&logo=notion&logoColor=white)](https://zigzag-citrus-12b.notion.site/cd0f3792573b4f45bfb94e4493be1adf)
 [![LinkedIn Badge](http://img.shields.io/badge/-LinkedIn-0072b1?style=flat&logo=linkedin&link=https://www.linkedin.com/in/dong-wook-lee-1095112a0/)](https://www.linkedin.com/in/dong-wook-lee-1095112a0/)
-[![Velog Badge](http://img.shields.io/badge/-Velog-20c997?style=flat-square&logo=velog&logoColor=white&link=https://velog.io/@dlehddnr99/)](https://velog.io/@dlehddnr99/)
+[![Velog Badge](http://img.shields.io/badge/-Velog-20c997?style=flat&logo=velog&logoColor=white&link=https://velog.io/@dlehddnr99/)](https://velog.io/@dlehddnr99/)
+[![LinkBrain](http://img.shields.io/badge/LinkBrain-8000FF?style=flat&logo=null&logoColor=white&link=https://linkbrain.kr)](https://linkbrain.kr/)
 
 ### 문제를 발견하고 기술적으로 해결하는 과정을 꾸준히 지속하고자 합니다.
 프로젝트를 수행하며 발생한 문제들을 해결하고, 더 나은 사용자 경험 제공과 성능 향상을 목표로 새로운 기술을 적용해보며 학습을 꾸준히 합니다.   

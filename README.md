@@ -20,6 +20,24 @@
 | **(주) EXEM** | 인턴 | 2023.07 - 2023.12 |
 
 
+## Main Projects
+
+### FutureWorkLab Corp - LinkBrain (Worked as an Front Develop + Sub Backend Develop)
+
+- LinkBrain is an AI-Powered knowledge management and collaboration platform that supports multi-platform environments, including web / mobile / Chrome Extensions (currently developing).. etc.
+
+- Implemented based on React, Next.js, Supabase, Tanstack Query, Zustand on Frontend and FastAPI, LangChain, LangGraph, Postgresql, Alembic on Backend and AI.
+
+- primarily responsible for core front-end functions related to web apps, Chrome extension and document agents.
+
+-  Modified Nginx-based **Reverse Proxy + Cache Strategy** to resolve static chunk caching issues in Safari and mobile environments.
+
+- Configured Next.js standalone + PM2/Node server in EC2 deployment environment.
+
+- Configured **temporary EC2 / NCP deployment environment** to resolve Chrome Inspect and Android device debugging limitations.
+
+- Performed Pair Programming using tmux + Gemini CLI + SSH Environment based on ncp gpu server.
+
 ## Tech Stack
 [![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E?style=flat&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) [![TypeScript](https://img.shields.io/badge/TypeScript-%233178C6?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 ![Python](https://img.shields.io/badge/Python-%233178C6?style=flat&logo=python&logoColor=white)

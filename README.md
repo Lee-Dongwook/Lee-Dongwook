@@ -22,7 +22,7 @@
 
 ## Main Projects
 
-### FutureWorkLab Corp - LinkBrain (Worked as an Front Develop + Sub Backend Develop)
+### FutureWorkLab Corp - LinkBrain (Currently 'll switching as Axflow(tentative name)) (Worked as an Front Develop + Sub Backend Develop)
 
 - LinkBrain is an AI-Powered knowledge management and collaboration platform that supports multi-platform environments, including web / mobile / Chrome Extensions (currently developing).. etc.
 

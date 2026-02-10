@@ -24,18 +24,33 @@
 
 ### FutureWorkLab Corp - LinkBrain (Currently 'll switching as Axflow(tentative name)) (Worked as an Front Develop + Sub Backend Develop)
 
+#### Intro
 - LinkBrain is an AI-Powered knowledge management and collaboration platform that supports multi-platform environments, including web / mobile / Chrome Extensions (currently developing).. etc.
-
 - Implemented based on React, Next.js, Supabase, Tanstack Query, Zustand on Frontend and FastAPI, LangChain, LangGraph, Postgresql, Alembic on Backend and AI.
-
 - primarily responsible for core front-end functions related to web apps, Chrome extension and document agents.
 
--  Modified Nginx-based **Reverse Proxy + Cache Strategy** to resolve static chunk caching issues in Safari and mobile environments.
 
+#### Migration & Project Architecture
+- **Established initial frontend project configuration for LinkBrain** defining the development environment and foundational architecture.
+- **Upgraded Tailwind CSS from v3.4.5 to v4.1.8**, conducting impact analysis on existing styles and executing a progressive migration.
+- **Executed phased upgrades of Next.js**, verifying breaking changes and API updates at each stage.
+- **Maintained service stability** by proactively evaluating functional changes and potential risks associated with major framework updates.
+
+#### Initial Rendering Performance Optimization
+- **Reduced Critical Path latency by approximately 52%**(7,868ms → 3,756ms) by eliminating unnecessary serialized tasks in the initial rendering path.
+- **Resolved rendering bottlenecks**, by decoupling the resource loading structure to ensure only essential assets are loaded upon entering
+- **Enhanced UX** by optimizing the client-side rendering path independently of server response fluctuations.
+- **Improved cache stability** by excluding redundant build manifest resources from the Service Worker pre-cache stage.
+
+#### Collaboration & Communication
+- **Managed tasks autonomously** within a 2-week Agile sprint cycle using Linear, creating and tracking granular tickets and sub-tickets.
+- **Fostered a collaborative engineering culture** by sharing new issues, development trends, and technical challenges via Slack.
+- **Expanded cross-functional knowledge** by participating in a Spring AI study with backend engineers to understand server architecture and AI integration flows.
+
+#### ETC
+- Modified Nginx-based **Reverse Proxy + Cache Strategy** to resolve static chunk caching issues in Safari and mobile environments.
 - Configured Next.js standalone + PM2/Node server in EC2 deployment environment.
-
 - Configured **temporary EC2 / NCP deployment environment** to resolve Chrome Inspect and Android device debugging limitations.
-
 - Performed Pair Programming using tmux + Gemini CLI + SSH Environment based on ncp gpu server.
 
 ## Tech Stack

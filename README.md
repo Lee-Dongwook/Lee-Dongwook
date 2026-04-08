@@ -1,13 +1,13 @@
 # Lee Dongwook
 
-## 👋 안녕하세요! 프로덕트 엔지니어 이동욱입니다.
+## 👋 안녕하세요! 프론트엔드 엔지니어 이동욱입니다.
 
 [![Resume Badge](https://img.shields.io/badge/notion-D3D3D3?style=flat&logo=notion&logoColor=white)](https://zigzag-citrus-12b.notion.site/cd0f3792573b4f45bfb94e4493be1adf)
 [![LinkedIn Badge](http://img.shields.io/badge/-LinkedIn-0072b1?style=flat&logo=linkedin&link=https://www.linkedin.com/in/dong-wook-lee-1095112a0/)](https://www.linkedin.com/in/dong-wook-lee-1095112a0/)
 [![Velog Badge](http://img.shields.io/badge/-Velog-20c997?style=flat&logo=velog&logoColor=white&link=https://velog.io/@dlehddnr99/)](https://velog.io/@dlehddnr99/)
 [![LinkBrain](http://img.shields.io/badge/LinkBrain-8000FF?style=flat&logo=null&logoColor=white&link=https://linkbrain.kr)](https://linkbrain.kr/)
 
-### 문제를 발견하고 기술적으로 해결하는 과정을 꾸준히 지속하고자 합니다.
+### 단순한 UI 구현을 넘어서 데이터의 진정한 가치를 전달하는 개발자로 성장합니다.
 프로젝트를 수행하며 발생한 문제들을 해결하고, 더 나은 사용자 경험 제공과 성능 향상을 목표로 새로운 기술을 적용해보며 학습을 꾸준히 합니다.
 
 단순 UI 구현을 넘어, 렌더링 / 흐름 / 리소스 로딩 / 브라우저 & 런타임 메모리 관점까지 고려하며 문제의 근본 원인을 파악하고 구조적으로 해결하는데 집중합니다.

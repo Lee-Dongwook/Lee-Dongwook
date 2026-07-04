@@ -6,6 +6,7 @@
 [![LinkedIn Badge](http://img.shields.io/badge/-LinkedIn-0072b1?style=flat&logo=linkedin&link=https://www.linkedin.com/in/dong-wook-lee-1095112a0/)](https://www.linkedin.com/in/dong-wook-lee-1095112a0/)
 [![Velog Badge](http://img.shields.io/badge/-Velog-20c997?style=flat&logo=velog&logoColor=white&link=https://velog.io/@dlehddnr99/)](https://velog.io/@dlehddnr99/)
 [![LinkBrain](http://img.shields.io/badge/LinkBrain-8000FF?style=flat&logo=null&logoColor=white&link=https://linkbrain.kr)](https://linkbrain.kr/)
+[![E2E-Healer](http://img.shields.io/badge/E2EHealer-20c997?style=flat&logo=null&logoColor=white&link=https://github.com/marketplace/actions/e2e-self-heal)](https://github.com/marketplace/actions/e2e-self-heal)
 
 ### 단순한 UI 구현을 넘어서 데이터의 진정한 가치를 전달하는 개발자로 성장합니다.
 프로젝트를 수행하며 발생한 문제들을 해결하고, 더 나은 사용자 경험 제공과 성능 향상을 목표로 새로운 기술을 적용해보며 학습을 꾸준히 합니다.

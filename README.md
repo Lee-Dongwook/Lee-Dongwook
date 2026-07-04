@@ -23,38 +23,57 @@
 | **(주) EXEM** | 인턴 | 2023.07 - 2023.12 |
 
 
-## Main Projects
+### 요약 (3줄)
 
-### FutureWorkLab Corp - LinkBrain (Currently 'll switching as Axflow(tentative name)) (Worked as an Front Develop + Sub Backend Develop)
+- 제조 AI 에이전트 플랫폼(AxFlow)의 프론트엔드를 초기 구축부터 운영까지 담당, 초기 렌더링 Critical Path를 **52% 단축한** 프론트엔드 개발자입니다.
+- 초기 렌더링 경로 최적화, 캐시 구조 개선 등 **성능/안정성** 문제를 주도적으로 개선해왔습니다.
+- DevTools 프로파일링 기반으로 병목을 진단하고, 코드 스플리팅·캐시 구조 재설계 등 **구조적 개선으로 재발을 방지**합니다.
 
-#### Intro
-- LinkBrain is an AI-Powered knowledge management and collaboration platform that supports multi-platform environments, including web / mobile / Chrome Extensions (currently developing).. etc.
-- Implemented based on React, Next.js, Supabase, Tanstack Query, Zustand on Frontend and FastAPI, LangChain, LangGraph, Postgresql, Alembic on Backend and AI.
-- primarily responsible for core front-end functions related to web apps, Chrome extension and document agents.
+### 주요 성과
 
+#### 1) A2UI 프로토콜 기반 선언적 UI 렌더러 구현
 
-#### Migration & Project Architecture
-- **Established initial frontend project configuration for LinkBrain** defining the development environment and foundational architecture.
-- **Upgraded Tailwind CSS from v3.4.5 to v4.1.8**, conducting impact analysis on existing styles and executing a progressive migration.
-- **Executed phased upgrades of Next.js**, verifying breaking changes and API updates at each stage.
-- **Maintained service stability** by proactively evaluating functional changes and potential risks associated with major framework updates.
+- **결과:** Google A2UI 프로토콜을 채택, 에이전트가 전송한 JSON 스키마를2 자체 디자인 시스템 컴포넌트로 동적 렌더링하는 클라이언트 렌더러 구현
+- **문제:** 에이전트가 생성하는 문서 양식이 템플릿마다 구조가 다르고, 필드 타입이 20종 이상으로 다양하여 정적 UI로는 대응 불가
+- **조치:**
+   - `fieldType` 기반 재귀적 렌더 트리 설계 (row, column, group 등 레이아웃 + text, select, file 등 입력 요소)
+   - react-hook-form 제네릭 통합으로 타입 안전한 동적 폼 제어
+   - `allowedFieldPaths` 기반 필드 경로 검증으로 잘못된 스키마 방어
 
-#### Initial Rendering Performance Optimization
-- **Reduced Critical Path latency by approximately 52%**(7,868ms → 3,756ms) by eliminating unnecessary serialized tasks in the initial rendering path.
-- **Resolved rendering bottlenecks**, by decoupling the resource loading structure to ensure only essential assets are loaded upon entering
-- **Enhanced UX** by optimizing the client-side rendering path independently of server response fluctuations.
-- **Improved cache stability** by excluding redundant build manifest resources from the Service Worker pre-cache stage.
+#### 2) SSE 기반 실시간 문서 생성 스트리밍 파이프라인 구축
 
-#### Collaboration & Communication
-- **Managed tasks autonomously** within a 2-week Agile sprint cycle using Linear, creating and tracking granular tickets and sub-tickets.
-- **Fostered a collaborative engineering culture** by sharing new issues, development trends, and technical challenges via Slack.
-- **Expanded cross-functional knowledge** by participating in a Spring AI study with backend engineers to understand server architecture and AI integration flows.
+- **결과:** BE/AI의 문서 청킹·파싱 시 장시간 처리로 발생하는 timeout 응답 단절을 해소, 청크 단위 점진적 렌더링으로 사용자 경험 연속성 확보
+- **문제:** 문서 생성 요청이 BE/AI 측 처리 시간에 의존하여, 일반 HTTP 요청으로는 timeout 발생 또는 완료까지 무응답 상태 지속
+- **조치:**
+   - axios의 ReadableStream 미지원 한계를 파악, fetch + ReadableStream 기반 SSE 스트리밍으로 전환
+   - `readSSELines` AsyncGenerator 유틸 구현 — 청크 경계 버퍼링으로 불완전 메시지 처리
+   - 스트리밍/일반 요청 이중 경로 설계 (`onChunk` 유무로 분기), 기존 API 호환성 유지
+   - 인증(401)·Rate Limit(429) 핸들링을 fetch 경로에도 일관 적용
 
-#### ETC
-- Modified Nginx-based **Reverse Proxy + Cache Strategy** to resolve static chunk caching issues in Safari and mobile environments.
-- Configured Next.js standalone + PM2/Node server in EC2 deployment environment.
-- Configured **temporary EC2 / NCP deployment environment** to resolve Chrome Inspect and Android device debugging limitations.
-- Performed Pair Programming using tmux + Gemini CLI + SSH Environment based on ncp gpu server.
+#### 3) 초기 렌더링 성능 개선 (Critical Path 52% 단축)
+
+- **결과:** Critical Path 지연 시간 약 **52% 단축** (7,868ms → 3,756ms)
+- **문제:** 초기 렌더링 경로에서 불필요하게 직렬화된 작업으로 인해 TTI가 지연됨
+- **조치:** 초기 진입(/main) 시 즉시 필요한 리소스만 로드하도록 구조 분리, 렌더링 병목 제거
+- **검증:** Chrome DevTools Performance / Lighthouse 기준 전후 비교 측정
+
+#### 4) 서비스 워커 프리캐시 안정성 개선
+
+- **결과:** pre-cache 단계에서 불필요한 build manifest 리소스를 제외하여 캐시 안정성 개선
+- **문제:** pre-cache 대상이 과도해 캐시 신뢰성이 떨어지고 업데이트 시 변동성이 커짐
+- **조치:** 캐시 대상 리소스를 재정의하고 필수 리소스 중심으로 최소화
+
+#### 5) 프로젝트 마이그레이션 및 업그레이드 주도
+
+- **프로젝트 초기 구성:** LinkBrain 프론트엔드 프로젝트를 zero-base에서 구축 (개발 환경, 디렉토리 구조, 린팅 설정)
+- **Tailwind CSS:** v3.4.5 → v4.1.8 업그레이드 (영향 범위 점검, 점진적 마이그레이션)
+- **Next.js:** v15.2.6 → v15.5.9 → v16.1.1 단계적 업그레이드 (변경 사항 검증 및 리스크 사전 점검)
+
+#### 협업
+
+- Linear 기반으로 2주 단위 스프린트에서 티켓/서브 티켓을 생성하고 우선순위를 관리
+- Slack 개발 채널에서 신규 이슈/트렌드/기술 고민을 공유하며 논의 문화에 참여
+- 백엔드 팀원들과 Spring AI 스터디를 진행하며 서버 구조와 AI 연계 흐름 이해 확장
 
 ## Tech Stack
 [![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E?style=flat&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) [![TypeScript](https://img.shields.io/badge/TypeScript-%233178C6?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)

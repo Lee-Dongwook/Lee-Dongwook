@@ -14,6 +14,7 @@
 Automatically repair broken Playwright E2E tests. When a UI change renames or restructures an element and a test's selector breaks, the engine diagnoses the failure, patches the broken selector/wait, verifies the new selector against the live DOM, then re-runs the test until it passes (or a retry cap is hit) and writes the fix back — as a local CLI or a CI GitHub Action that opens a patch PR.
 
 #### Open Source Contribute List
+- **https://github.com/jiunshinn/serve-emul/pull/46**
 - **https://github.com/jiunshinn/serve-emul/pull/45**
 - **https://github.com/facebook/astryx/pull/3747**
 - **https://github.com/meursyphus/flitter/pull/91**

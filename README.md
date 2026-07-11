@@ -10,10 +10,10 @@
 
 #### Open Source List
 
-https://github.com/facebook/astryx/pull/3747
-https://github.com/meursyphus/flitter/pull/91
-https://github.com/meursyphus/headless-chart/pull/8
-https://github.com/meursyphus/headless-chart/pull/12
+- **https://github.com/facebook/astryx/pull/3747**
+- **https://github.com/meursyphus/flitter/pull/91**
+- **https://github.com/meursyphus/headless-chart/pull/8**
+- **https://github.com/meursyphus/headless-chart/pull/12**
 
 ---
 

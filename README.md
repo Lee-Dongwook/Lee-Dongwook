@@ -7,7 +7,7 @@
 [![Velog Badge](http://img.shields.io/badge/-Velog-20c997?style=flat&logo=velog&logoColor=white&link=https://velog.io/@dlehddnr99/)](https://velog.io/@dlehddnr99/)
 [![Axflow](http://img.shields.io/badge/Axflow-8000FF?style=flat&logo=null&logoColor=white&link=https://axflow.io)](https://axflow.io/)
 
-#### My newly planned to operating Open-Source
+#### My newly planned to operating an Open-Source
 
 [![E2E-Healer](http://img.shields.io/badge/E2EHealer-20c997?style=flat&logo=null&logoColor=white&link=https://github.com/marketplace/actions/e2e-self-heal)](https://github.com/marketplace/actions/e2e-self-heal)
 

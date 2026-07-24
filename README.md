@@ -19,6 +19,7 @@ Automatically repair broken Playwright E2E tests. When a UI change renames or re
 - **https://github.com/sebastian-software/cuttledoc/pull/173**
 - **https://github.com/jiunshinn/serve-emul/pull/46**
 - **https://github.com/jiunshinn/serve-emul/pull/45**
+- **https://github.com/facebook/astryx/pull/4292**
 - **https://github.com/facebook/astryx/pull/4284**
 - **https://github.com/facebook/astryx/pull/3747**
 - **https://github.com/meursyphus/flitter/pull/91**

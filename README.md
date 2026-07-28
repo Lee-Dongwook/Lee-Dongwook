@@ -11,6 +11,7 @@
 
 [![E2E-Healer](http://img.shields.io/badge/E2EHealer-20c997?style=flat&logo=null&logoColor=white&link=https://github.com/Lee-Dongwook/E2E-Self-Heal)](https://github.com/Lee-Dongwook/E2E-Self-Heal)
 Reached **10+ contributors**, 14/07/2026 16:00 KST
+Deployed Link: https://pypi.org/project/ai-driven-e2e/#description
 
 
 Automatically repair broken Playwright E2E tests. When a UI change renames or restructures an element and a test's selector breaks, the engine diagnoses the failure, patches the broken selector/wait, verifies the new selector against the live DOM, then re-runs the test until it passes (or a retry cap is hit) and writes the fix back — as a local CLI or a CI GitHub Action that opens a patch PR.

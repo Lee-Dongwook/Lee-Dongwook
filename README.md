@@ -1,6 +1,9 @@
 # Lee Dongwook
 
 ## 👋 안녕하세요! 2년차 프론트엔드 엔지니어 이동욱입니다.
+- 제조 AI 에이전트 플랫폼(AxFlow)의 **Document Agent 단일 구조에서 Agent + Workflow 확장 개편을 주도**하고, FE 아키텍처 및 공통 스키마 설계를 총괄한 프론트엔드 엔지니어입니다.
+- **Google A2UI 프로토콜 및 SSE 스트리밍 기반 동적 UI 렌더러 구축**, 데이터 시각화 공통 컴포넌트 총괄을 통해 비정형 AI 응답 및 대용량 데이터 렌더링 환경을 표준화했습니다.
+- **테스트 인프라(Playwright, Storybook, Vitest) 구축 및 에이전트 판단 재현 설계**를 통해 품질 기준을 수립하고, Critical Path 최적화(52% 단축)로 서비스 안정성을 개선했습니다.
 
 [![Resume Badge](https://img.shields.io/badge/notion-D3D3D3?style=flat&logo=notion&logoColor=white)](https://zigzag-citrus-12b.notion.site/cd0f3792573b4f45bfb94e4493be1adf)
 [![LinkedIn Badge](http://img.shields.io/badge/-LinkedIn-0072b1?style=flat&logo=linkedin&link=https://www.linkedin.com/in/dong-wook-lee-1095112a0/)](https://www.linkedin.com/in/dong-wook-lee-1095112a0/)
@@ -31,14 +34,6 @@ Automatically repair broken Playwright E2E tests. When a UI change renames or re
 - **https://github.com/meursyphus/headless-chart/pull/12**
 
 ---
-
-### 단순한 UI 구현을 넘어서 데이터의 진정한 가치를 전달하는 개발자로 성장합니다.
-프로젝트를 수행하며 발생한 문제들을 해결하고, 더 나은 사용자 경험 제공과 성능 향상을 목표로 새로운 기술을 적용해보며 학습을 꾸준히 합니다.
-
-단순 UI 구현을 넘어, 렌더링 / 흐름 / 리소스 로딩 / 브라우저 & 런타임 메모리 관점까지 고려하며 문제의 근본 원인을 파악하고 구조적으로 해결하는데 집중합니다.
-
-동료 피드백을 수용하여 부족한 부분을 지속적으로 개선하고자 노력합니다.
-
 
 ## Work Experience
 |   회사명    |    직급     |  기간  | 

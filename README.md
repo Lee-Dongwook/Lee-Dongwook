@@ -80,8 +80,46 @@ Reached **20+ contributors**
 
 Deployed Link: https://pypi.org/project/ai-driven-e2e/#description
 
-
 Automatically repair broken Playwright E2E tests. When a UI change renames or restructures an element and a test's selector breaks, the engine diagnoses the failure, patches the broken selector/wait, verifies the new selector against the live DOM, then re-runs the test until it passes (or a retry cap is hit) and writes the fix back — as a local CLI or a CI GitHub Action that opens a patch PR.
+
+**주요 성과**
+
+1. **LangGraph 기반 AI 자가 치유(Self-Healing) E2E 테스트 자동화 엔진 구축**
+    - 문제 : UI 변경(ID, 클래스명 변경 등) 시마다 E2E 테스트 셀렉터 단절로 인해 CI/CD 파이프라인 실패 및 수동 유지보수 공수가 과도하게 발생하는 Flakiness 문제
+    - **조치:**
+        - **LangGraph 4레이어 파이프라인 설계:** `Diagnoser` → `Patch Generator` → `Selector Verifier` → `Test Runner`로 이어지는 자율 피드백 루프 구축
+        - **환각 방지 검증 레이어:** Live DOM과 연동해 패치된 셀렉터의 유일성(1:1 매칭)을 사전 검증하는 `Selector Verifier` 구현으로 잘못된 패치 차단
+        - **가드레일 및 이중 모드:** 테스트 로직/검증문(Assertion)은 유지하는 오토 힐링(`heal`) 모드와 Source-level 피드백을 PR 주석으로 전달하는 `review` 모드 선택적 지원
+    - UI 변경으로 인한 Playwright 테스트 깨짐 발생 시, 인간의 개입 없이 깨진 셀렉터/대기 조건을 자동 진단·수정하여 테스트를 통과시키는 오픈소스 라이브러리 및 GitHub Action 구현
+
+**2. CLI–GitHub Actions 통합 및 테스트 복구 워크플로우 자동화**
+
+- **문제:** AI 기반 테스트 복구를 실제 개발 과정에 적용하려면 로컬 실행부터 CI 실패 감지, 수정 결과 검토까지 일관된 연동 체계 필요
+- **조치:**
+    - **CLI 중심 실행 구조 통합:** 로컬과 CI에서 동일한 `e2e-healer` 실행 경로를 사용하도록 구성하고, 단일 테스트 및 전체 테스트 스위트의 실패 파일별 복구 지원
+    - **CI 후속 처리 표준화:** 실행 결과를 `passed` / `healed` / `unhealed` / `reviewed`로 구분하고, 스키마 버전과 유형 식별자를 포함한 JSON 리포트 제공
+    - **패치 PR 연동:** 복구 결과와 변경 요약을 활용한 패치 PR 생성 및 소스 코드 개선 제안을 전달하는 인라인 PR 리뷰 워크플로우 구성
+- **결과:** 로컬 진단부터 CI 자동 복구·PR 검토까지 연결되는 개발 워크플로우 구축. 실제 랜딩 페이지 CTA의 ID 변경 사례에서 **기존 URL 검증문을 유지한 채 셀렉터만 수정하여 첫 복구 시도에 테스트 통과**
+
+**3. 멀티 LLM 프로바이더 추상화 및 구조화 응답 안정성 확보**
+
+- **문제:** 특정 LLM에 종속된 구조는 도입 환경별 모델 선택을 제한하며, 모델별 응답 형식 차이와 비정상 JSON 출력은 자동 복구 파이프라인의 실패 요인으로 작용
+- **조치:**
+    - **6개 LLM 백엔드 지원:** NVIDIA NIM, OpenAI, Anthropic, Ollama, DeepSeek, OrcaRouter를 공통 설정 체계로 연결하여 환경변수 기반 프로바이더·모델 전환 지원
+    - **구조화 출력 처리 통합:** 프로바이더별 JSON Schema 및 Tool-use 방식을 공통 패치·리뷰 출력 스키마에 맞춰 처리
+    - **응답 오류 복구:** 구조화 응답 파싱 실패 시 재시도 후 패치 생성 피드백 루프로 연결하여 후속 복구 시도 지원
+    - **로컬 실행 지원:** Ollama 연동 및 선택적 의존성 분리로 외부 API 없이 동작하는 모델 실행 환경 제공
+- **결과:** 동일한 복구 엔진에서 클라우드 API와 로컬 모델을 선택할 수 있는 확장 구조 확보. 기존 NVIDIA 설정과의 하위 호환성을 유지하며 모델 선택 범위 확대
+
+**4. 변경 맥락 기반 진단 컨텍스트 구성 및 재현 가능한 검증 체계 구축**
+
+- **문제:** 테스트 실패 로그와 소스 파일 전체를 LLM에 전달하면 불필요한 정보가 포함되며, UI 변경과 셀렉터 실패 간 관계를 명확히 파악하기 어려움
+- **조치:**
+    - **진단 입력 전처리:** Playwright 실패 로그와 `git diff`에서 실패 셀렉터 및 변경된 DOM 속성을 추출하여 진단 맥락 구성
+    - **컨텍스트 비교 벤치마크:** 전체 파일 입력과 관련 JSX 노드 중심 입력의 프롬프트 토큰 추정치를 비교하는 CLI 명령 구현
+    - **검증된 복구 이력 관리:** 로컬 복구 이력 조회·저장을 지원하고, 실행별 이력 사용 여부를 선택할 수 있는 옵션 제공
+    - **재현 가능한 E2E 데모:** React·Vite 예제 앱에 실제 UI 변경 diff를 적용하여 테스트 실패 → 자동 패치 → Live DOM 검증 → 재실행 과정을 재현하도록 구성
+- **결과:** 진단 컨텍스트의 토큰 사용량을 비교할 수 있는 측정 기반 마련. 버튼 ID 변경 데모에서 **수정된 셀렉터의 DOM 단일 매칭과 테스트 통과를 종단 간 검증**
 
 #### Open Source Contribute List
 - **https://github.com/VIDAKHOSHPEY22/news-daily-bot/pull/2**
@@ -94,6 +132,66 @@ Automatically repair broken Playwright E2E tests. When a UI change renames or re
 - **https://github.com/meursyphus/flitter/pull/91**
 - **https://github.com/meursyphus/headless-chart/pull/8**
 - **https://github.com/meursyphus/headless-chart/pull/12**
+
+
+### Side Project
+SignalFlow - Kafka·Flink 기반 비정형 이벤트 처리와 LangGraph 기반 복구 에이전트를 결합하여, 장애 원인 분석부터 수정안 검증·운영자 승인까지 연결하는 플랫폼 개발
+
+**주요 성과**
+
+**1. LangGraph 기반 장애 이벤트 분석 및 복구 제안 워크플로우 구축**
+
+- **문제**: 실패 이벤트가 DLQ(Dead Letter Queue)에 적재된 이후, 운영자가 원본 데이터와 로그를 직접 대조하여 원인과 수정 가능 여부를 판단해야 하는 수동 복구 구조
+- **조치**:
+    - LangGraph 기반으로 **오류 원인 분류 → 수정 제안 → 스키마 검증**으로 이어지는 복구 에이전트 흐름 구현
+    - 오류 원인, 수정 payload, 변경 diff, 신뢰도 및 위험 사유를 구조화하여 반환하도록 분석 결과 설계
+    - 필수 비즈니스 값 누락 및 안전한 복원이 불가능한 이벤트를 보류 상태로 격리
+- **결과**: 개별 로그에 분산된 장애 분석 정보를 구조화하고, 운영자가 수정 근거와 위험성을 함께 검토할 수 있는 일관된 복구 절차 확보
+
+**2. Pydantic 검증 및 Human-in-the-Loop 기반 복구 통제 설계**
+
+- **문제**: LLM이 생성한 수정안을 검증 없이 재사용하거나 단순 재시도할 경우, 동일 오류 반복 및 잘못된 데이터 재투입 위험 존재
+- **조치**:
+    - LLM의 수정 제안에 **서버 측 Pydantic 이벤트 스키마 검증**을 적용하여 복구안의 유효성 확인
+    - 스키마 오류 유형이면서 검증을 통과한 제안만 승인 대기 상태로 전환하도록 조건 명시
+    - 검증 통과와 운영자 승인을 분리하고, 승인 이력이 있는 이벤트만 재처리 어댑터에 전달하도록 API 제어
+    - 승인·보류 결정 및 처리 이력을 SQLite와 감사 로그로 기록
+- **결과**: AI 제안에 대한 검증·승인·추적 체계를 구축하고, 승인된 이벤트의 재처리 흐름을 시뮬레이션으로 구현하여 자동화 과정의 운영자 통제권 확보
+
+**3. Kafka·PyFlink 기반 실시간 이벤트 처리 및 다중 저장소 연계**
+
+- **문제**: 비정형 이벤트를 검색에 활용하려면 데이터 형식 검증, 품질 평가, 임베딩 생성 및 관계 정보 적재를 연결하고 처리 실패 이벤트를 별도로 관리해야 하는 과제
+- **조치**:
+    - Protobuf 기반 이벤트 계약과 Kafka 토픽을 구성하고, PyFlink의 **역직렬화 → 데이터 품질 평가 → 임베딩** 처리 흐름 구현
+    - 벡터·메타데이터를 ClickHouse에, 엔터티 관계 정보를 Neo4j에 전달하는 저장 경로 구성
+    - 처리 중 발생한 오류 이벤트를 DLQ로 분리하여 복구 분석 흐름과 연계
+- **결과**: 이벤트 수집부터 품질 검사·저장까지 이어지는 스트리밍 처리 기반을 마련하고, 정상 데이터 처리와 실패 이벤트 검토 경로를 분리한 아키텍처 구축
+
+**4. Next.js·FastAPI 기반 장애 복구 검토 대시보드 구축**
+
+- **문제**: 원본 데이터, AI 수정안, 검증 결과 및 처리 이력이 분산되어 있으면 운영자가 복구 적합성을 판단하기 어렵고 잘못된 상태에서 승인할 가능성 존재
+- **조치**:
+    - Next.js 기반으로 **DLQ 목록·상세, 원본/수정 payload, 변경 diff, 검증 결과, 위험 사유 및 감사 로그**를 통합한 검토 화면 구현
+    - FastAPI의 분석·승인·보류·재처리 API를 연결하여 화면에서 복구 검토 절차를 수행하도록 구성
+    - 분석 전·보류·재처리 완료 등 승인 불가 상태에서 버튼을 비활성화하고 사유 표시
+    - fixture 3건 기반 검토 서비스와 프론트엔드 자동 데모를 구성하여 외부 스트리밍 인프라 없이 핵심 흐름 재현
+- **결과**: 장애 분석 근거 확인부터 운영자 결정까지 한 화면에서 수행할 수 있는 검토 환경을 구축하고, 독립적으로 실행 가능한 시연 환경 확보
+
+**5. 하이브리드 검색·그래프 컨텍스트 및 검색 평가 기반 구축**
+
+- **문제**: 비정형 이벤트의 의미적 유사성, 키워드 일치 및 엔터티 관계를 함께 활용하고 검색 결과의 관련도를 검증할 수 있는 구조 필요
+- **조치**:
+    - ClickHouse 기반 벡터·키워드 하이브리드 검색과 리랭킹 구성 요소 구현
+    - Neo4j 그래프 컨텍스트 조회를 결합하여 검색 결과에 엔터티 관계 정보 제공
+    - vLLM 호환 API를 활용한 `LLMJudgeEvaluator`와 Golden Dataset 기반 GraphRAG 평가 예제 작성
+- **결과**: 의미·키워드·관계 정보를 함께 활용하는 검색 기반을 마련하고, 검색 문맥의 관련도를 평가할 수 있는 검증 경로 확보
+
+**기타 개발 및 검증**
+
+- **테스트 구성**: pytest 기반 API·스키마 검증·에이전트 라우팅·복원력 테스트와 Docker 기반 인프라 테스트 구성
+- **복구 지표 수집**: Prometheus 기반 복구 시도 횟수, 처리 시간 및 서킷 브레이커 상태 메트릭 기록
+- **장애 실험 구성**: Chaos Mesh 기반 vLLM 네트워크 지연 및 Kafka Pod 종료 실험 매니페스트 작성
+- **실행·배포 환경 구성**: Docker Compose 기반 개발 인프라와 검토 서비스 단독 실행을 위한 Dockerfile·배포 설정 작성
 
 ## Tech Stack
 [![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E?style=flat&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) [![TypeScript](https://img.shields.io/badge/TypeScript-%233178C6?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)

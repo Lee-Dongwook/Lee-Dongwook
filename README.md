@@ -1,15 +1,15 @@
 # Lee Dongwook
 
-## 👋 안녕하세요! 2년차 프론트엔드 엔지니어 이동욱입니다.
+## 👋 안녕하세요! AI 에이전트의 복잡한 실행 흐름을 사용자 경험과 검증 가능한 구조로 구현하는 2년차 프론트엔드 엔지니어 이동욱입니다.
 
 [![Resume Badge](https://img.shields.io/badge/notion-D3D3D3?style=flat&logo=notion&logoColor=white)](https://zigzag-citrus-12b.notion.site/cd0f3792573b4f45bfb94e4493be1adf)
 [![LinkedIn Badge](http://img.shields.io/badge/-LinkedIn-0072b1?style=flat&logo=linkedin&link=https://www.linkedin.com/in/dong-wook-lee-1095112a0/)](https://www.linkedin.com/in/dong-wook-lee-1095112a0/)
 [![Velog Badge](http://img.shields.io/badge/-Velog-20c997?style=flat&logo=velog&logoColor=white&link=https://velog.io/@dlehddnr99/)](https://velog.io/@dlehddnr99/)
 [![Axflow](http://img.shields.io/badge/Axflow-8000FF?style=flat&logo=null&logoColor=white&link=https://axflow.io)](https://axflow.io/)
 
-- 제조 AI 에이전트 플랫폼(AxFlow)의 **Document Agent 단일 구조에서 Agent + Workflow 확장 개편을 주도**하고, FE 아키텍처 및 공통 스키마 설계를 총괄한 프론트엔드 엔지니어입니다.
-- **Google A2UI 프로토콜 및 SSE 스트리밍 기반 동적 UI 렌더러 구축**, 데이터 시각화 공통 컴포넌트 총괄을 통해 비정형 AI 응답 및 대용량 데이터 렌더링 환경을 표준화했습니다.
-- **테스트 인프라(Playwright, Storybook, Vitest) 구축 및 에이전트 판단 재현 설계**를 통해 품질 기준을 수립하고, Critical Path 최적화(52% 단축)로 서비스 안정성을 개선했습니다.
+- **제품 아키텍처 설계:** 제조 AI 플랫폼 AxFlow의 Agent + Workflow 확장 개편을 주도하고, 공통 스키마·동적 UI 렌더러·SSE 스트리밍을 구현하여 다양한 에이전트와 문서 양식을 수용하는 프론트엔드 구조를 구축했습니다.
+- **성능 및 품질 개선:** 초기 진입 Critical Path 지연 시간을 **52% 단축**하고, Playwright·Storybook·Vitest 기반 테스트 인프라와 에이전트 판단 재현 구조를 설계해 비확정적 AI 실행 흐름의 회귀 검증 기반을 마련했습니다.
+- **AI 자동화 및 오픈소스:** LangGraph 기반 E2E 테스트 자동 복구 도구를 개발해 **PyPI·GitHub Action으로 배포한 경험과** **Meta astryx**의 컴포넌트 개선에 기여한 경험이 있습니다. 개인 프로젝트에서는 AI 장애 분석부터 스키마 검증·운영자 승인까지 연결하는 복구 검토 흐름을 구현했습니다.
 
 ## Work Experience
 |   회사명    |    직급     |  기간  | 

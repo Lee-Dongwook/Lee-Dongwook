@@ -122,14 +122,14 @@ Automatically repair broken Playwright E2E tests. When a UI change renames or re
 - **결과:** 진단 컨텍스트의 토큰 사용량을 비교할 수 있는 측정 기반 마련. 버튼 ID 변경 데모에서 **수정된 셀렉터의 DOM 단일 매칭과 테스트 통과를 종단 간 검증**
 
 #### Open Source Contribute List
-- **https://github.com/VIDAKHOSHPEY22/news-daily-bot/pull/2**
-- **https://github.com/VIDAKHOSHPEY22/news-daily-bot/pull/3** (worked as a collaborator)
-- **https://github.com/jiunshinn/serve-emul/pull/46**
-- **https://github.com/jiunshinn/serve-emul/pull/45**
 - **https://github.com/facebook/astryx/pull/6389**
 - **https://github.com/facebook/astryx/pull/5964**
 - **https://github.com/facebook/astryx/pull/4292**
 - **https://github.com/facebook/astryx/pull/4284**
+- **https://github.com/VIDAKHOSHPEY22/news-daily-bot/pull/2**
+- **https://github.com/VIDAKHOSHPEY22/news-daily-bot/pull/3** (worked as a collaborator)
+- **https://github.com/jiunshinn/serve-emul/pull/46**
+- **https://github.com/jiunshinn/serve-emul/pull/45**
 - **https://github.com/meursyphus/flitter/pull/91**
 - **https://github.com/meursyphus/headless-chart/pull/8**
 - **https://github.com/meursyphus/headless-chart/pull/12**

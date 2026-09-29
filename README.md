@@ -126,6 +126,7 @@ Automatically repair broken Playwright E2E tests. When a UI change renames or re
 - **https://github.com/VIDAKHOSHPEY22/news-daily-bot/pull/3** (worked as a collaborator)
 - **https://github.com/jiunshinn/serve-emul/pull/46**
 - **https://github.com/jiunshinn/serve-emul/pull/45**
+- **https://github.com/facebook/astryx/pull/6389**
 - **https://github.com/facebook/astryx/pull/4292**
 - **https://github.com/facebook/astryx/pull/4284**
 - **https://github.com/facebook/astryx/pull/3747**

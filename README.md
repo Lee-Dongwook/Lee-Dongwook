@@ -74,7 +74,7 @@
 #### Open-Source
 
 [![E2E-Healer](http://img.shields.io/badge/E2EHealer-20c997?style=flat&logo=null&logoColor=white&link=https://github.com/Lee-Dongwook/E2E-Self-Heal)](https://github.com/Lee-Dongwook/E2E-Self-Heal)
-Reached **20+ contributors**
+Reached **30+ contributors**
 [![Powered by OrcaRouter](https://img.shields.io/badge/Powered_by-OrcaRouter-2563eb)](https://www.orcarouter.ai/ref/ref_210b976a004fb5022f5f)
 
 

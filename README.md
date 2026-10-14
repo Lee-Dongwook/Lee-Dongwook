@@ -8,70 +8,127 @@
 [![Velog Badge](http://img.shields.io/badge/-Velog-20c997?style=flat&logo=velog&logoColor=white&link=https://velog.io/@dlehddnr99/)](https://velog.io/@dlehddnr99/)
 [![PyPI](https://img.shields.io/badge/PyPI-ai--driven--e2e-3776AB?style=flat-square&logo=pypi&logoColor=white)](https://pypi.org/project/ai-driven-e2e/)
 
-## What I Do
-
-### 제품의 전체 흐름을 연결합니다
-사용자가 수행하는 업무를 화면, API, 데이터 구조로 연결합니다. 프론트엔드와 서버의 책임을 함께 살피며, 기능이 실제 업무 흐름 안에서 동작하도록 구현합니다.
-
-### 예외 상황에서도 일관된 동작을 고민합니다
-인증 상태에 따른 화면 전환, 문서 데이터의 정합성, 비동기 작업의 상태 변화처럼 정상적인 흐름만으로 설명하기 어려운 문제를 추적하고 해결합니다.
-
-### 지속적으로 개선할 수 있는 개발 기반을 만듭니다
-공통 도메인과 UI 문서화, 테스트 및 CI 실행 구조를 정비해 기능을 추가하고 변경할 때 검증할 수 있는 기반을 마련합니다.
-
-
 ## Work Experience
 
-### FutureWorkLab — Frontend Developer / Product Engineer
-2024.10 – Present
+### FutureWorkLab — Product Engineer · Oct 2024 – Present
 
-**제조 AI 플랫폼 Axflow의 Agent 및 Workflow 관련 기능**을 개발하고 있습니다.
+제조 AI 에이전트 플랫폼과 업무 자동화 서비스를 개발하며, 프론트엔드를 중심으로 API 및 데이터 모델과 연결되는 기능을 구현하고 있습니다.
 
-- **Agent Workflow** 개편: 기존 기능을 확장할 수 있도록 프론트엔드 구조와 공통 모델을 정리하고, Workflow 설정 및 실행 화면을 구현했습니다.
+#### Agent Workflow & Domain Architecture
+기존 Document Agent 중심의 구조를 Agent와 Workflow를 함께 다룰 수 있는 형태로 확장하면서, 독립적인 앱 구조와 공통 도메인 모델을 정비했습니다.
 
-- **문서 템플릿**: 템플릿의 생성·조회와 문서 생성 흐름을 연결하고, 관련 데이터 구조와 API 연동을 개발했습니다.
+- Workflow 설정 및 실행 화면과 관련 API 연동
 
-- **동적 UI**: 문서 유형에 따른 UI 렌더링과 폼 입력 구조를 구성해 여러 형태의 문서를 다룰 수 있도록 했습니다.
+- 문서 템플릿의 모델, 스키마, 생성·조회 API 및 사용자 화면 구현
 
-- **SSE 스트리밍**: fetch와 ReadableStream을 활용해 서버에서 전달되는 데이터를 점진적으로 처리하는 공통 유틸리티를 구현했습니다.
+- 공통 모델과 패키지를 활용한 도메인 구조 정리 및 기존 기능 이관
 
-- **성능 및 개발 환경**: 코드 스플리팅과 프리캐시 구조를 개선하고, Storybook·테스트·CI를 통해 컴포넌트 개발과 검증 환경을 정비했습니다.
+- 기능 간 의존성을 분리하고 앱별 책임을 명확히 하는 방향으로 구조 개선
 
-실무에서 기능을 구현할 때는 개별 화면의 완성도뿐 아니라 데이터가 전달되는 경로, 상태 변화에 따른 동작, 기존 기능과 새로운 구조의 연결을 함께 고려합니다.
+- 문서 생성부터 Workflow 실행까지 이어지는 사용자 흐름 구현
 
-## Featured Projects 
+#### On-premise Authentication & Account Management
+
+온프레미스 환경의 계정 관리 기능을 개발하며 인증 정책과 사용자 상태가 서버와 클라이언트에서 일관되게 처리되도록 구현했습니다.
+
+- 계정 생성·조회·수정, 관리자 및 일반 사용자 화면 구현
+
+- Excel 기반 일괄 등록, 행별 검증, 오류 및 처리 결과 표시
+
+- 비밀번호 변경, 세션 갱신, 계정 잠금 및 비활성화에 따른 상태 처리
+
+- 로그인 실패, 토큰 만료, 비밀번호 변경 필요 등 인증 상태별 예외 흐름 분리
+
+- 계정 탈퇴 요청·철회·승인 과정의 상태 정합성과 동시 요청 처리 고려
+
+- 서버 오류 코드와 클라이언트 동작을 연결해 실패 상황별 안내 및 후속 처리 구현
+
+#### Document Processing & PDF Rendering
+
+다양한 문서 형식과 OCR 데이터를 다루는 기능을 개발하고, PDF 열람 과정에서 발생하는 렌더링 및 자원 관리 문제를 개선했습니다.
+
+- DOCX, TXT, HWP, CSV 등 문서 형식별 뷰어 및 데이터 처리 흐름 구현
+
+- OCR 결과의 메타데이터와 텍스트 유무를 검증해 데이터 유실 경로 보완
+
+- 비동기 처리 상태와 polling 흐름을 분리하고 갱신 시점 관리
+
+- 화면 위치를 기준으로 PDF 페이지를 지연 렌더링하도록 구현
+
+- 화면에서 멀어진 페이지의 렌더링 자원 정리 및 요청 취소 처리
+
+- 문서 교체 시 캐시 무효화와 페이지 렌더링 상태 관리
+
+#### Monitoring, KPI & Real-time Data
+
+운영 데이터를 화면에서 탐색하고 해석할 수 있도록 실시간 이벤트, 기간 필터, 집계 결과를 연결했습니다.
+
+- SSE 기반 작업 상태 수신 및 UI 상태 동기화
+
+- 기간 필터와 KPI 집계 기준을 연결하고 조회 범위에 따른 계산 로직 보완
+
+- 이전 기간 비교, 평균 계산, 집계 시점 등 지표 표시의 일관성 개선
+
+- 기간 변경에 따른 상태 동기화 및 반복 갱신 문제 수정
+
+#### Shared UI & Development Infrastructure
+
+기능 개발뿐 아니라 공통 UI를 검증하고 변경 사항을 지속적으로 확인할 수 있는 개발 환경을 정비했습니다.
+
+- Storybook 기반 공통 UI 컴포넌트 문서화 및 사용 예시 구성
+
+- 컴포넌트 상태와 상호작용을 확인할 수 있는 스토리 및 테스트 구성
+
+- 변경된 워크스페이스를 기준으로 테스트 대상을 결정하는 CI 흐름 개선
+
+- 테스트 샤딩, 결과 집계 및 머지 게이트 구성
+
+- 공통 모듈과 테스트 환경의 의존성 및 실행 설정 정리
+
+#### Current Focus: BI & Data Visualization
+
+온프레미스 BI 제품의 프론트엔드 시각화 계층을 개발하고 있습니다.
+
+- 사용자 시각화 설정과 차트 렌더링을 연결하는 컴포넌트 구조 설계
+
+- 시각화 설정의 검증과 호스트 애플리케이션 간 인터페이스 설계
+
+- 차트 라이브러리와 BI 도메인 모델 사이의 추상화 경계 검토
+
+## Projects 
 
 ### 1. [E2E-Self-Heal](https://github.com/Lee-Dongwook/E2E-Self-Heal)
 #### AI 기반 Playwright E2E 테스트 자동 복구 도구
 
-UI 변경으로 테스트의 selector가 깨졌을 때 실패 원인을 분석하고, 수정 후보를 검증한 뒤 테스트를 다시 실행하는 오픈소스 프로젝트입니다.
+Playwright E2E 테스트가 UI 변경으로 인해 실패했을 때, 실패 원인을 분석하고 수정안을 생성한 뒤 실행 결과로 검증하는 오픈소스 프로젝트입니다.
 
-- **실패 진단 및 복구**: Diagnoser → Patch Generator → Selector Verifier → Test Runner 흐름을 통해 selector 및 대기 조건의 수정과 검증을 수행합니다.
+**Technical Highlights**
 
-- **수정 범위 제한**: assertion과 테스트 로직을 변경하지 않도록 패치 범위를 제한하고, 수정 결과를 사람이 검토할 수 있도록 설계했습니다.
+- **Repair Workflow**: 실패 진단, 수정안 생성, selector 검증, 테스트 재실행으로 이어지는 복구 흐름 구성
 
-- **DOM 기반 검증**: 수정한 selector가 실제 DOM에서 유일한 요소를 가리키는지 확인합니다.
+- **Constrained Patching**: locator와 wait condition을 중심으로 수정 범위를 제한하고 assertion 및 테스트 검증 로직은 보호
 
-- **실행 방식**: 로컬 CLI와 GitHub Actions 기반 워크플로를 지원합니다.
+- **Live DOM Verification**: 수정된 selector를 실제 DOM에서 확인한 뒤 테스트 실행으로 유효성 검증
 
-- **리뷰 모드**: 테스트 코드를 자동 수정하는 대신, 원인이 된 소스 코드에 대한 개선 제안을 제공하는 흐름도 지원합니다.
+- **Shadow Testing**: 기록된 네트워크 데이터를 활용해 실제 백엔드 요청에 대한 의존성을 줄인 검증 경로 구현
 
-이 프로젝트에서는 LLM의 판단을 그대로 적용하는 것보다, 수정 가능한 범위를 제한하고 실행 결과를 검증하는 구조에 집중하고 있습니다.
+- **CLI & CI Integration**: 로컬 CLI와 GitHub Actions를 통한 실행 및 검토 가능한 수정 결과 전달
 
-기술: Python, LangGraph, Playwright, GitHub Actions
+- **Review Mode**: 테스트 파일을 직접 수정하는 방식 외에도 실패 원인과 수정 제안을 리뷰 형태로 제공
+
+단순히 LLM으로 테스트 코드를 수정하는 것이 아니라, 수정 가능한 범위를 제한하고 실행 결과를 검증하는 폐쇄 루프를 구성하는 것을 핵심 설계 방향으로 삼고 있습니다.
+
 
 ### 2. [superset-bi-metrics](https://github.com/Lee-Dongwook/superset-bi-metrics) 
 BI 제품에서 시각화와 지표 정의, 비동기 쿼리 처리 상태를 어떻게 연결할 수 있는지 탐색하는 프로젝트입니다.
 
-- **Apache Superset**과 **Cube.js**를 연결하는 구조를 설계했습니다.
+- **Apache Superset**과 **Cube.js**를 연결하는 구조를 설계
 
-- 쿼리 실행 및 사전 집계 진행 상태를 전달하기 위한 이벤트 흐름을 구성했습니다.
+- 쿼리 실행 및 사전 집계 진행 상태를 전달하기 위한 이벤트 흐름을 구성
 
-- 프론트엔드 클라이언트, API 계층, 실시간 이벤트 전달 계층의 역할을 구분했습니다.
+- 프론트엔드 클라이언트, API 계층, 실시간 이벤트 전달 계층의 역할을 구분
 
 이 프로젝트는 BI 시스템의 여러 구성 요소를 연결하는 아키텍처를 탐색하는 데 초점을 둡니다. 저장소에 정의된 구조와 실제로 구현·검증된 기능은 구분해서 살펴볼 수 있습니다.
-
-기술: Apache Superset, Cube.js, Python, Go, TypeScript, Rust, Redis
 
 ### 3. [Conflow](https://github.com/Lee-Dongwook/Conflow) 
 #### AI 기반 협업 워크플로 프로젝트
@@ -95,25 +152,19 @@ AI 에이전트가 업무 흐름에 참여할 수 있도록 관련 기능과 확
 
 ## Tech Stack
 
-Frontend
+### Frontend
 TypeScript · JavaScript · React · Next.js · Tailwind CSS · TanStack Query · Zustand
 
-Backend & Data
-Python · FastAPI · SQL · Redis
+### Backend & Data
+Python · FastAPI · PostgreSQL · Redis · REST API · SSE
 
-AI & Workflow
-LangGraph · Multi-Agent Architecture · SSE Streaming
-
-Testing & Developer Tools
+### Testing & Developer Tools
 Playwright · Vitest · Storybook · GitHub Actions · Docker
 
-기술 스택은 실무와 개인 프로젝트에서 사용한 기술을 중심으로 정리했습니다. 프로젝트별 구체적인 사용 범위는 각 저장소에서 확인할 수 있습니다.
+### AI & Workflow
+LLM · LangGraph · Multi-Agent Systems · Workflow Automation
 
 ## Education
 
 홍익대학교 — 정보컴퓨터공학부 컴퓨터공학전공 (2018.03 – 2024.08)
 코드랩 — AI Multi-Agent 서비스 실전 프로젝트 - 최우수 수료 (2026.06 – 2026.09)
-
----
-
-제품의 요구사항을 이해하고, 데이터와 사용자 흐름을 연결하며, 예외 상황까지 고려해 구현하는 엔지니어로 성장하고 있습니다. 새로운 기술을 도입하는 것 자체보다 실제 문제를 해결하는 데 필요한 구조와 검증 방법을 찾는 것을 중요하게 생각합니다.

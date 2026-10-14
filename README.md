@@ -1,6 +1,6 @@
-## 안녕하세요, 이동욱 (Lee Dongwook) 입니다.
+# 안녕하세요, Product Engineer 이동욱입니다.
 
-> **AI 에이전트의 비확정적 실행 흐름을 검증 가능한 구조와 인터페이스로 구현하는 2년차 프론트엔드 엔지니어입니다.**
+> **프론트엔드를 중심으로 사용자 화면부터 API·데이터 모델·인증 정책까지 연결하며, 비확정적 AI 실행 흐름과 예외 상황에서도 안정적인 제품 경험을 구현합니다.**
 
 [![LinkedIn Badge](http://img.shields.io/badge/-LinkedIn-0072b1?style=flat&logo=linkedin&link=https://www.linkedin.com/in/dong-wook-lee-1095112a0/)](https://www.linkedin.com/in/dong-wook-lee-1095112a0/)
 [![Velog Badge](http://img.shields.io/badge/-Velog-20c997?style=flat&logo=velog&logoColor=white&link=https://velog.io/@dlehddnr99/)](https://velog.io/@dlehddnr99/)

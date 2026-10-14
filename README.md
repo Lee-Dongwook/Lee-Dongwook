@@ -1,6 +1,10 @@
-# 안녕하세요, Product Engineer 이동욱입니다.
+# Lee Dongwook | Product Engineer
 
-프론트엔드를 중심으로 사용자 화면부터 API, 데이터 모델, 인증 정책까지 연결하며 제품을 개발합니다. 기능을 구현하는 데 그치지 않고, 예외 상황에서도 데이터와 사용자 흐름이 일관되게 유지되는지 살피고 실제 업무에서 사용할 수 있는 형태로 완성하는 데 관심이 있습니다.
+프론트엔드를 중심으로 제품의 요구사항을 데이터 모델, API, 상태 관리, 사용자 인터페이스로 연결하는 엔지니어입니다.
+
+기능을 구현하는 것에서 그치지 않고, 복잡한 데이터 흐름과 상태 전이에서 발생하는 문제를 추적하고, 예외 상황에서도 일관되게 동작하는 구조를 만드는 데 관심이 있습니다. 문서·AI 워크플로, 온프레미스 계정 관리, 데이터 시각화 영역을 경험하며 제품의 기능 구현부터 공통 컴포넌트, 테스트 및 CI 환경까지 개발 범위를 넓혀 가고 있습니다.
+
+**제품의 요구사항을 이해하고, 기술적 제약 안에서 유지보수 가능한 구현으로 연결하는 Product Engineer를 지향합니다.**
 
 [![LinkedIn Badge](http://img.shields.io/badge/-LinkedIn-0072b1?style=flat&logo=linkedin&link=https://www.linkedin.com/in/dong-wook-lee-1095112a0/)](https://www.linkedin.com/in/dong-wook-lee-1095112a0/)
 [![Velog Badge](http://img.shields.io/badge/-Velog-20c997?style=flat&logo=velog&logoColor=white&link=https://velog.io/@dlehddnr99/)](https://velog.io/@dlehddnr99/)

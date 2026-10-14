@@ -166,5 +166,5 @@ LLM · LangGraph · Multi-Agent Systems · Workflow Automation
 
 ## Education
 
-홍익대학교 — 정보컴퓨터공학부 컴퓨터공학전공 (2018.03 – 2024.08)
-코드랩 — AI Multi-Agent 서비스 실전 프로젝트 - 최우수 수료 (2026.06 – 2026.09)
+- 홍익대학교 — 정보컴퓨터공학부 컴퓨터공학전공 (2018.03 – 2024.08)
+- 코드랩 — AI Multi-Agent 서비스 실전 프로젝트 - 최우수 수료 (2026.06 – 2026.09)

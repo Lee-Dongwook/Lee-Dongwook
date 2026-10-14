@@ -1,11 +1,9 @@
-# Lee Dongwook
+# 👋 안녕하세요, 이동욱 (Lee Dongwook) 입니다.
 
-## 👋 안녕하세요! AI 에이전트의 복잡한 실행 흐름을 사용자 경험과 검증 가능한 구조로 구현하는 2년차 프론트엔드 엔지니어 이동욱입니다.
+## 복잡한 AI 에이전트의 실행 흐름을 안정적인 사용자 경험과 검증 가능한 아키텍처로 구현하는 엔지니어입니다.
 
-[![Resume Badge](https://img.shields.io/badge/notion-D3D3D3?style=flat&logo=notion&logoColor=white)](https://zigzag-citrus-12b.notion.site/cd0f3792573b4f45bfb94e4493be1adf)
 [![LinkedIn Badge](http://img.shields.io/badge/-LinkedIn-0072b1?style=flat&logo=linkedin&link=https://www.linkedin.com/in/dong-wook-lee-1095112a0/)](https://www.linkedin.com/in/dong-wook-lee-1095112a0/)
 [![Velog Badge](http://img.shields.io/badge/-Velog-20c997?style=flat&logo=velog&logoColor=white&link=https://velog.io/@dlehddnr99/)](https://velog.io/@dlehddnr99/)
-[![Axflow](http://img.shields.io/badge/Axflow-8000FF?style=flat&logo=null&logoColor=white&link=https://axflow.io)](https://axflow.io/)
 
 - **제품 아키텍처 설계:** 제조 AI 플랫폼 AxFlow의 Agent + Workflow 확장 개편을 주도하고, 공통 스키마·동적 UI 렌더러·SSE 스트리밍을 구현하여 다양한 에이전트와 문서 양식을 수용하는 프론트엔드 구조를 구축했습니다.
 - **성능 및 품질 개선:** 초기 진입 Critical Path 지연 시간을 **52% 단축**하고, Playwright·Storybook·Vitest 기반 테스트 인프라와 에이전트 판단 재현 구조를 설계해 비확정적 AI 실행 흐름의 회귀 검증 기반을 마련했습니다.

@@ -1,69 +1,89 @@
 # 안녕하세요, Product Engineer 이동욱입니다.
 
-> **프론트엔드를 중심으로 사용자 화면부터 API·데이터 모델·인증 정책까지 연결하며, 비확정적 AI 실행 흐름과 예외 상황에서도 안정적인 제품 경험을 구현합니다.**
+프론트엔드를 중심으로 사용자 화면부터 API, 데이터 모델, 인증 정책까지 연결하며 제품을 개발합니다. 기능을 구현하는 데 그치지 않고, 예외 상황에서도 데이터와 사용자 흐름이 일관되게 유지되는지 살피고 실제 업무에서 사용할 수 있는 형태로 완성하는 데 관심이 있습니다.
 
 [![LinkedIn Badge](http://img.shields.io/badge/-LinkedIn-0072b1?style=flat&logo=linkedin&link=https://www.linkedin.com/in/dong-wook-lee-1095112a0/)](https://www.linkedin.com/in/dong-wook-lee-1095112a0/)
 [![Velog Badge](http://img.shields.io/badge/-Velog-20c997?style=flat&logo=velog&logoColor=white&link=https://velog.io/@dlehddnr99/)](https://velog.io/@dlehddnr99/)
 [![PyPI](https://img.shields.io/badge/PyPI-ai--driven--e2e-3776AB?style=flat-square&logo=pypi&logoColor=white)](https://pypi.org/project/ai-driven-e2e/)
 
----
+## What I Do
 
-## Key Metrics & Highlights
+### 제품의 전체 흐름을 연결합니다
+사용자가 수행하는 업무를 화면, API, 데이터 구조로 연결합니다. 프론트엔드와 서버의 책임을 함께 살피며, 기능이 실제 업무 흐름 안에서 동작하도록 구현합니다.
 
-| 영역 | 성과 및 지표 | 기술적 내용 |
-| :--- | :--- | :--- |
-| **Performance** | Critical Path 지연 시간 **52% 단축** | Chrome DevTools 프로파일링 기반 코드 스플리팅 및 프리캐시 재정의 |
-| **UI Architecture** | Google A2UI 기반 선언적 동적 렌더러 구축 | `fieldType` 제네릭 연동 및 프론트엔드 배포 Zero화 스키마 파이프라인 |
-| **Streaming** | fetch + ReadableStream 기반 SSE 구축 | 타임아웃 및 무응답 대기 해소, 청크 단위 점진적 렌더링 |
-| **Testability** | Playwright · Storybook · Vitest 인프라 | 비확정적 AI 실행 경로의 결정론적 모킹 및 회귀 검증 체계 |
+### 예외 상황에서도 일관된 동작을 고민합니다
+인증 상태에 따른 화면 전환, 문서 데이터의 정합성, 비동기 작업의 상태 변화처럼 정상적인 흐름만으로 설명하기 어려운 문제를 추적하고 해결합니다.
 
-## Tech Stack
+### 지속적으로 개선할 수 있는 개발 기반을 만듭니다
+공통 도메인과 UI 문서화, 테스트 및 CI 실행 구조를 정비해 기능을 추가하고 변경할 때 검증할 수 있는 기반을 마련합니다.
 
-- **Frontend:** TypeScript, React, Next.js, Tailwind CSS, TanStack Query, Zustand, Feature-Sliced Design (FSD)
-- **AI & Workflow:** LangGraph, Multi-Agent Architecture, Supervisor Agent, SSE Streaming, Google A2UI Protocol
-- **Data & Infra:** Python, FastAPI, Kafka, PyFlink, Apache Superset, ClickHouse, Neo4j, Docker
 
 ## Work Experience
 
-### (주) FutureWorkLab — Frontend Developer
-`2024.10 - Present` | **제조 AI 플랫폼 AxFlow의 Agent + Workflow 확장 개편**
-- **Google A2UI 기반 동적 UI 렌더러:** `fieldType` 기반 재귀 렌더 트리 및 `react-hook-form` 연동으로 20여 종의 문서 양식 수용
-- **SSE 스트리밍 파이프라인:** `fetch` + `ReadableStream` 기반 `AsyncGenerator` 유틸 구축
-- **성능 최적화:** 코드 스플리팅 및 프리캐시 재정의로 Critical Path 지연 시간 **52% 단축**
+### FutureWorkLab — Frontend Developer / Product Engineer
+2024.10 – Present
 
-<details>
-<summary><b>상세 업무 성과 보기</b></summary>
+**제조 AI 플랫폼 Axflow의 Agent 및 Workflow 관련 기능**을 개발하고 있습니다.
 
-- **워크플로우 FE 아키텍처 총괄:** 단일 에이전트 구조에서 Agent + Workflow 확장 구조로 FE 아키텍처 전면 개편 및 공통 스키마 설계
-- **테스트 인프라 구축:** Playwright, Storybook, Vitest 기반 통합 테스트 인프라 구축 및 에이전트 판단 재현 설계
-</details>
+- **Agent Workflow** 개편: 기존 기능을 확장할 수 있도록 프론트엔드 구조와 공통 모델을 정리하고, Workflow 설정 및 실행 화면을 구현했습니다.
 
-## Featured Projects (Pinned Repositories)
+- **문서 템플릿**: 템플릿의 생성·조회와 문서 생성 흐름을 연결하고, 관련 데이터 구조와 API 연동을 개발했습니다.
 
-### 1. [E2E-Self-Heal](https://github.com/Lee-Dongwook/E2E-Self-Heal) `Python` `PyPI` `GitHub Action`
-> **LangGraph 기반 Playwright E2E 테스트 자율 복구 엔진**
-- **아키텍처:** Diagnoser ➔ Patch Generator ➔ Selector Verifier ➔ Test Runner 4레이어 자율 피드백 루프
-- **핵심 기능:** UI 변경으로 파손된 셀렉터를 Live DOM과 대조 검증(1:1 매칭)하여 자동 복구 및 CI/CD Patch PR 자동 생성
+- **동적 UI**: 문서 유형에 따른 UI 렌더링과 폼 입력 구조를 구성해 여러 형태의 문서를 다룰 수 있도록 했습니다.
 
-### 2. [Conflow](https://github.com/Lee-Dongwook/Conflow) `Python`
-> **Supervisor Agent 기반 엔터프라이즈 협업 OS**
-- **기능 개요:** PM, Comms, HR, 문서발급 기능을 하나로 통합한 엔터프라이즈 멀티 에이전트 협업 플랫폼
-- **구조:** Supervisor Agent 모델을 통한 에이전트 간 연쇄 작업 제어 및 워크플로우 검증
+- **SSE 스트리밍**: fetch와 ReadableStream을 활용해 서버에서 전달되는 데이터를 점진적으로 처리하는 공통 유틸리티를 구현했습니다.
 
-### 3. [superset-bi-metrics](https://github.com/Lee-Dongwook/superset-bi-metrics) `Python`
-> **Apache Superset 기반 BI Metrics 아키텍처 및 대시보드**
-- **구조:** 커스텀 비즈니스 지표 정의, 데이터 시각화 파이프라인 및 엔터프라이즈 BI 대시보드 연동 구성
+- **성능 및 개발 환경**: 코드 스플리팅과 프리캐시 구조를 개선하고, Storybook·테스트·CI를 통해 컴포넌트 개발과 검증 환경을 정비했습니다.
 
-### 4. [kafka-principle](https://github.com/Lee-Dongwook/kafka-principle) `Java`
-> **Apache Kafka 아키텍처 및 동작 원리 학습 리포지토리**
-- **내용:** 분산 메시징 시스템의 핵심 원리(메시지 브로커, 토픽, 파티션, 오프셋 관리 및 컨슈머 그룹 동작 메커니즘) 분석 및 구현
+실무에서 기능을 구현할 때는 개별 화면의 완성도뿐 아니라 데이터가 전달되는 경로, 상태 변화에 따른 동작, 기존 기능과 새로운 구조의 연결을 함께 고려합니다.
 
-### 5. [Renewal_TripPlannerZ](https://github.com/Lee-Dongwook/Renewal_TripPlannerZ) `TypeScript`
-> **여행 일정 관리 · 예산 설계 · 동행자 매칭 플랫폼 (SaaS 리뉴얼)**
-- **기능:** 여행 일정 수립, 실시간 예산 정산, 동행자 매칭 기능 및 단일 흐름 SaaS 아키텍처 구현
+## Featured Projects 
 
-### 6. [PortFolio](https://github.com/Lee-Dongwook/PortFolio) `TypeScript`
-> **개인 엔지니어링 포트폴리오 리포지토리**
+### 1. [E2E-Self-Heal](https://github.com/Lee-Dongwook/E2E-Self-Heal)
+#### AI 기반 Playwright E2E 테스트 자동 복구 도구
+
+UI 변경으로 테스트의 selector가 깨졌을 때 실패 원인을 분석하고, 수정 후보를 검증한 뒤 테스트를 다시 실행하는 오픈소스 프로젝트입니다.
+
+- **실패 진단 및 복구**: Diagnoser → Patch Generator → Selector Verifier → Test Runner 흐름을 통해 selector 및 대기 조건의 수정과 검증을 수행합니다.
+
+- **수정 범위 제한**: assertion과 테스트 로직을 변경하지 않도록 패치 범위를 제한하고, 수정 결과를 사람이 검토할 수 있도록 설계했습니다.
+
+- **DOM 기반 검증**: 수정한 selector가 실제 DOM에서 유일한 요소를 가리키는지 확인합니다.
+
+- **실행 방식**: 로컬 CLI와 GitHub Actions 기반 워크플로를 지원합니다.
+
+- **리뷰 모드**: 테스트 코드를 자동 수정하는 대신, 원인이 된 소스 코드에 대한 개선 제안을 제공하는 흐름도 지원합니다.
+
+이 프로젝트에서는 LLM의 판단을 그대로 적용하는 것보다, 수정 가능한 범위를 제한하고 실행 결과를 검증하는 구조에 집중하고 있습니다.
+
+기술: Python, LangGraph, Playwright, GitHub Actions
+
+### 2. [superset-bi-metrics](https://github.com/Lee-Dongwook/superset-bi-metrics) 
+BI 제품에서 시각화와 지표 정의, 비동기 쿼리 처리 상태를 어떻게 연결할 수 있는지 탐색하는 프로젝트입니다.
+
+- **Apache Superset**과 **Cube.js**를 연결하는 구조를 설계했습니다.
+
+- 쿼리 실행 및 사전 집계 진행 상태를 전달하기 위한 이벤트 흐름을 구성했습니다.
+
+- 프론트엔드 클라이언트, API 계층, 실시간 이벤트 전달 계층의 역할을 구분했습니다.
+
+이 프로젝트는 BI 시스템의 여러 구성 요소를 연결하는 아키텍처를 탐색하는 데 초점을 둡니다. 저장소에 정의된 구조와 실제로 구현·검증된 기능은 구분해서 살펴볼 수 있습니다.
+
+기술: Apache Superset, Cube.js, Python, Go, TypeScript, Rust, Redis
+
+### 3. [Conflow](https://github.com/Lee-Dongwook/Conflow) 
+#### AI 기반 협업 워크플로 프로젝트
+
+- 여러 업무 영역을 하나의 데이터 모델과 워크플로로 연결하는 방향을 탐색하는 개인 프로젝트입니다.
+
+- 여러 업무 기능을 연결하기 위한 도메인 및 애플리케이션 구조를 설계했습니다.
+
+- UI와 비즈니스 로직, 외부 시스템 연동을 분리하는 구조를 적용하고자 했습니다.
+
+AI 에이전트가 업무 흐름에 참여할 수 있도록 관련 기능과 확장 방향을 탐색하고 있습니다.
+
+기술: Python, TypeScript, React, AI Agent
+
 
 ## Open Source Contributions
 
@@ -71,18 +91,27 @@
 - [`meursyphus/headless-chart`](https://github.com/meursyphus/headless-chart): 차트 라이브러리 기능 확장 기여
 - [`jiunshinn/serve-emu`](https://github.com/jiunshinn/serve-emu): 에뮬레이터 제어 및 스트리밍 기여
 
-## Activities
+## Tech Stack
 
-| 활동                                      | 기간                    |
-|-------------------------------------------|-------------------------|
-| **홍익대학교 컴퓨터공학전공 학술동아리 _P.C.R.C_ 32기** | 2018.03 - 2019.12   |
-| **고려대학교 창업 준비 동아리 _Novelia_ FE 개발** | 2023.01 - 2023.05        |
-| **홍익대학교 학습튜터링2 (홍익투게더) 멘토 _이끄미_ 활동** | 2023.03 - 2023.07   |
+Frontend
+TypeScript · JavaScript · React · Next.js · Tailwind CSS · TanStack Query · Zustand
 
-## Education 
+Backend & Data
+Python · FastAPI · SQL · Redis
 
-|                                      | 기간                    |
-|-------------------------------------------|-------------------------|
-| **홍익대학교 정보컴퓨터공학부 컴퓨터공학전공**    | 2018.03 - 2024.08 |
-| **인프런 X 코드캠프 고농축 프론트엔드 온라인 코스** |  2023.07 - 2024.01 |
-| **코드랩 AI Multi-Agent 서비스 실전 프로젝트 - 최우수 수료**     | 2026.06 - 2026.09   |
+AI & Workflow
+LangGraph · Multi-Agent Architecture · SSE Streaming
+
+Testing & Developer Tools
+Playwright · Vitest · Storybook · GitHub Actions · Docker
+
+기술 스택은 실무와 개인 프로젝트에서 사용한 기술을 중심으로 정리했습니다. 프로젝트별 구체적인 사용 범위는 각 저장소에서 확인할 수 있습니다.
+
+## Education
+
+홍익대학교 — 정보컴퓨터공학부 컴퓨터공학전공 (2018.03 – 2024.08)
+코드랩 — AI Multi-Agent 서비스 실전 프로젝트 - 최우수 수료 (2026.06 – 2026.09)
+
+---
+
+제품의 요구사항을 이해하고, 데이터와 사용자 흐름을 연결하며, 예외 상황까지 고려해 구현하는 엔지니어로 성장하고 있습니다. 새로운 기술을 도입하는 것 자체보다 실제 문제를 해결하는 데 필요한 구조와 검증 방법을 찾는 것을 중요하게 생각합니다.
